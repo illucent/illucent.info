@@ -7,7 +7,7 @@ import "./index.css";
 const TemplateWrapper = ({ children }) => (
   <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
     <Helmet
-      title='illucent'
+      title="illucent"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
