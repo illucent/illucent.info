@@ -1,15 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 
-var colors = {
-  'grey-silver': '#C0C0C0',
-}
-
-module.exports = {
-  colors: colors,
-  backgroundColors: colors,
-}
-
 const Header = () => {
   const handleClick = function(e) {
     const el = document.getElementById("nav");
