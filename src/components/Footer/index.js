@@ -5,7 +5,7 @@ import Netlify from "../../images/netlify-color-bg.svg";
 import Copyleft from "../../images/Licence_Art_Libre.svg";
 
 var colors = {
-  'bg-silver': '#C0C0C0',
+  'silver': '#C0C0C0',
 }
 
 module.exports = {
