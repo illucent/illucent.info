@@ -6,14 +6,14 @@ const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center">
     <div className="md:w-2/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
-        The point is... to live one's life in the full complexity of what one
-        is, which is something much darker, more contradictory, more of a
-        maelstrom of impulses and passions, of cruelty, ecstacy, and madness,
-        than is apparent to the civilized being who glides on the surface and
-        fits smoothly into the world.
-      </p>
-      <p className="font-bold mt-4 text-right text-xs uppercase">
-        — Thomas Nagel
+        full stack employee / independent learner / digital artist
+
+Copyleft: Unless otherwise stated, the content of this site is free, you can copy it, distribute it and modify it according to the terms of the Free Art License http://artlibre.org
+http://linkedin.com/in/andrewstarodubtsev
+https://github.com/illucent
+devtech@illucent.info
+callto: +380(99)0047245
+https://illucent.info
       </p>
     </div>
 
