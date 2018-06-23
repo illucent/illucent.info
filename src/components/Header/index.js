@@ -42,21 +42,39 @@ const Header = () => {
               to="/"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
             >
-              Home
+              home
             </Link>
-
+            <Link
+              to="/projects"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+            >
+             projects / portfolio
+            </Link>
+            <Link
+              to="/blog"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+            >
+              blog
+            </Link>
+           <Link
+              to="/lab"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+            >
+             lab
+            </Link>
+    
             <Link
               to="/about"
               className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
             >
-              About
+              about
             </Link>
 
             <Link
               to="/contact"
               className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
             >
-              Contact
+              contact
             </Link>
           </div>
         </div>
