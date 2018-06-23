@@ -2,10 +2,11 @@ import React from "react";
 import Link from "gatsby-link";
 
 var colors = {
-  'silver': '#C0C0C0',
+  'grey-silver': '#C0C0C0',
 }
 
 module.exports = {
+  colors: colors,
   backgroundColors: colors,
 }
 
