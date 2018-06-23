@@ -4,13 +4,6 @@ import Gatsby from "../../images/gatsbyjs.svg";
 import Netlify from "../../images/netlify-color-bg.svg";
 import Copyleft from "../../images/Licence_Art_Libre.svg";
 
-var colors = {
-  'silver': '#C0C0C0',
-}
-
-module.exports = {
-  backgroundColors: colors,
-}
 
 const Footer = () => (
   <div className="flex justify-start bg-silver">
