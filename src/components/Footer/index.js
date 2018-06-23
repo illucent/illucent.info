@@ -8,14 +8,14 @@ import Copyleft from "../../images/Licence_Art_Libre.svg";
 const Footer = () => (
   <div className="bg-grey-silver">
     <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
-        <Link to="https://www.gatsbyjs.org" className="flex items-center no-underline text-white">
+        <Link to="https://www.gatsbyjs.org" className="flex items-center no-underline text-white mx-2">
               <img src={Gatsby} className="block mx-auto w-32" />
         </Link>
-       <Link to="https://www.netlify.com/" className="flex items-center no-underline text-white">
+       <Link to="https://www.netlify.com/" className="flex items-center no-underline text-white mx-2">
              <img src={Netlify} className="block mx-auto w-32" />
        </Link>
         <div className="flex justify-between mx-auto w-32">
-            <Link to="https://tailwindcss.com" className="flex items-center no-underline text-white">
+            <Link to="https://tailwindcss.com" className="flex items-center no-underline text-white mx-2">
               <svg
                 className="fill-current h-8 mr-2 w-32"
                 width="54"
@@ -27,7 +27,7 @@ const Footer = () => (
               </svg>
             </Link>
         </div>
-        <Link to="http://artlibre.org" className="flex items-center no-underline text-white">
+        <Link to="http://artlibre.org" className="flex items-center no-underline text-white mx-2">
             <img src={Copyleft} className="block mx-auto w-32" />
         </Link>
     </div>
