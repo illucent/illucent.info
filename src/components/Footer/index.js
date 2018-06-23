@@ -6,7 +6,7 @@ import Copyleft from "../../images/Licence_Art_Libre.svg";
 
 
 const Footer = () => (
-  <div className="bg-grey-silver">
+  <div className="bg-grey">
     <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
         <Link to="https://www.gatsbyjs.org" className="flex items-center no-underline text-white mx-2">
               <img src={Gatsby} className="block mx-auto w-32" />
