@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-teal">
+    <nav className="bg-grey-dark">
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
         <Link to="/" className="flex items-center no-underline text-white">
           <svg
