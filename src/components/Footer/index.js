@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
-import Gatsby from "../images/gatsbyjs.svg";
-import Netlify from "../images/netlify-color-bg.svg";
-import Copyleft from "../images/Licence_Art_Libre.svg";
+import Gatsby from "../../images/gatsbyjs.svg";
+import Netlify from "../../images/netlify-color-bg.svg";
+import Copyleft from "../../images/Licence_Art_Libre.svg";
 
 const Footer = () => (
   <div className="bg-blue">
