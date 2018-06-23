@@ -6,10 +6,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./index.css";
 
+const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+
 const TemplateWrapper = ({ children }) => (
   <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
     <Helmet
-      title="illucent"
+      title={siteTitle}
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
