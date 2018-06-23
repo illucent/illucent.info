@@ -1,6 +1,14 @@
 import React from "react";
 import Link from "gatsby-link";
 
+var colors = {
+  'silver': '#C0C0C0',
+}
+
+module.exports = {
+  backgroundColors: colors,
+}
+
 const Header = () => {
   const handleClick = function(e) {
     const el = document.getElementById("nav");
@@ -11,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-grey-dark">
+    <nav className="bg-silver">
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
         <Link to="/" className="flex items-center no-underline text-white">
           <svg
