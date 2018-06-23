@@ -4,8 +4,16 @@ import Gatsby from "../../images/gatsbyjs.svg";
 import Netlify from "../../images/netlify-color-bg.svg";
 import Copyleft from "../../images/Licence_Art_Libre.svg";
 
+var colors = {
+  'bg-silver': '#C0C0C0',
+}
+
+module.exports = {
+  backgroundColors: colors,
+}
+
 const Footer = () => (
-  <div className="flex justify-start bg-grey-dark">
+  <div className="flex justify-start bg-silver">
         <Link to="https://www.gatsbyjs.org" className="flex items-center no-underline text-white">
               <img src={Gatsby} className="block mx-auto w-32" />
         </Link>
