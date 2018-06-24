@@ -10,7 +10,7 @@
     "react-helmet": "latest",
     "gatsby-remark-images": "latest",
     "gatsby-remark-copy-linked-files": "latest",
-    "gatsby-source-filesystem": "latest",
+    "gatsby-source-filesystem": "latest"
   },
   "keywords": [
     "gatsby",
