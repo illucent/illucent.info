@@ -2,5 +2,13 @@ module.exports = {
   siteMetadata: {
     title: 'lab',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+plugins: [
+  'gatsby-plugin-react-helmet',
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: ["gatsby-remark-copy-linked-files"],
+    },
+  },
+]
 };
