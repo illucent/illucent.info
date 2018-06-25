@@ -12,7 +12,9 @@ const TemplateWrapper = ({ children }) => (
       title="illucent"
       meta={[
         { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        { name: "keywords", content: "sample, something" },
+        { name: "viewport", content: "width=device-width, initial-scale=1.0" }
+        { name: "HandheldFriendly", content: "True" }
       ]}
     />
     <Header />
