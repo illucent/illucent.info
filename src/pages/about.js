@@ -14,7 +14,7 @@ https://github.com/illucent
 devtech@illucent.info
 callto: +380(99)0047245
 https://illucent.info
-[CV](CV-2018-06-25002749.8264014470300.pdf)
+<a href="CV-2018-06-25002749.8264014470300.pdf">CV</a>
       </p>
     </div>
 
