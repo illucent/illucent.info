@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
 
+
 const ContactPage = () => (
-  <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className="mx-auto md:w-1/2">
-    <input type="hidden" name="bot-field" />
+  <form name="contact-form-v0.000001" method="POST" netlify className="mx-auto md:w-1/2">
     <p className="leading-loose mb-8">
       Here is an example of a form built using Tailwind. Click{" "}
       <a
@@ -17,28 +17,30 @@ const ContactPage = () => (
 
     <label
       className="block font-bold mb-2 text-xs uppercase"
-      htmlFor="first-name"
+      htmlFor="email"
     >
-      First Name
+      email
     </label>
     <input
       className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      id="first-name"
+      id="email"
       type="text"
-      placeholder="Bill"
+      placeholder="email"
     />
 
     <label
       className="block font-bold mb-2 text-xs uppercase"
-      htmlFor="last-name"
+      htmlFor="first-name"
     >
-      Last Name
+      First Name
     </label>
+  
     <input
       className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      id="last-name"
+      id="first-name"
+      name="first-name"
       type="text"
-      placeholder="Murray"
+      placeholder="First Name"
     />
 
     <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">
@@ -49,7 +51,7 @@ const ContactPage = () => (
       placeholder="Say something..."
       rows="8"
     />
-
+    <div data-netlify-recaptcha></div>
     <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white">
       Submit
     </button>
