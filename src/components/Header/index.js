@@ -48,7 +48,7 @@ const Header = () => {
               to="/projects"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
             >
-             projects </br> portfolio
+             projects / portfolio
             </Link>
             <Link
               to="/blog"
