@@ -27,6 +27,16 @@ const Footer = () => (
           <a href="http://artlibre.org" className="flex items-center no-underline text-white mx-2">
               <img src={Copyleft} className="block mx-auto w-32" />
           </a>
+  
+         <section className="copyLeft">
+           <p>
+          built using 
+          <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="flex items-center no-underline text-white">
+             Gatsby starter styled with Tailwind
+          </a>
+         </p>
+          {new Date().getFullYear()}
+        </section>
     </div>
   </div>
 );
