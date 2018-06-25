@@ -2,7 +2,8 @@ import React from "react";
 import Link from "gatsby-link";
 
 const ContactPage = () => (
-  <form className="mx-auto md:w-1/2">
+  <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className="mx-auto md:w-1/2">
+    <input type="hidden" name="bot-field" />
     <p className="leading-loose mb-8">
       Here is an example of a form built using Tailwind. Click{" "}
       <a
