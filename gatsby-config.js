@@ -13,7 +13,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-favicon`,
     options: {
-      logo: ".src/images/favicons/android-chrome-512x512.png",
+      logo: `./src/images/favicons/android-chrome-512x512.png`,
       injectHTML: true,
       icons: {
         android: true,
