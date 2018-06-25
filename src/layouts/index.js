@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import appleTouchIcon from '../images/favicons/apple-touch-icon.pn';
+import appleTouchIcon from '../images/favicons/apple-touch-icon.png';
 import favicon32 from '../images/favicons/favicon-32x32.png';
 import favicon16 from '../images/favicons/favicon-16x16.png';
 import webmanifest from '../images/favicons/site.webmanifest';
