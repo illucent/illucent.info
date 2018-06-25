@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import Logo from "../../images/website-logo.svg";
+import Logo from "../../images/website-logo-transparent-v.000001.svg";
 
 const Header = () => {
   const handleClick = function(e) {
