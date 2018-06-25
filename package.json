@@ -11,7 +11,8 @@
     "gatsby-transformer-remark": "latest",
     "gatsby-remark-images": "latest",
     "gatsby-remark-copy-linked-files": "latest",
-    "gatsby-source-filesystem": "latest"
+    "gatsby-source-filesystem": "latest",
+    "gatsby-plugin-favicon":  "latest"
   },
   "keywords": [
     "gatsby",
