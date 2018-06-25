@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 
 const ContactPage = () => (
-  <form className="mx-auto md:w-1/2" name="contactform" method="POST" netlify >
+  <form className="mx-auto md:w-1/2" name="contact_form" method="POST" netlify >
     <p className="leading-loose mb-8">
       Here is an example of a form built using Tailwind. Click{" "}
       <a
