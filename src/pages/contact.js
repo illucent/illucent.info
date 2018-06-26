@@ -33,7 +33,7 @@ const ContactPage = () => (
       <input name="email" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3 leading-tight" id="grid-email" type="text" placeholder="email@domain.com">
       <p className="text-red text-xs italic">Please fill out this field.</p>
     </div>
-  
+  </div>
   <div className="flex flex-wrap -mx-3 mb-6">
     <div className="w-full px-3">
       <label className="block uppercase tracking-wide text-grey-darker text-xs mb-2" for="grid-message">
@@ -44,14 +44,12 @@ const ContactPage = () => (
     </div>
   </div>
   
-  
-    <div data-netlify-recaptcha></div>
+   <div data-netlify-recaptcha></div>
   
     <button className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded" type="button">
       Sign Up
     </button>
   
-    </div>
   </form>
 );
 
