@@ -48,7 +48,10 @@ const ContactPage = () => (
       placeholder="Say something..."
       rows="8"
     />
-
+    <div
+    data-netlify-recaptcha
+    >
+    </div>
     <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white">
       Submit
     </button>
