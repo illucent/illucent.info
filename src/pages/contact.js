@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 
 const ContactPage = () => (
-  <form name="contact_form" method="POST" data-netlify="true" className="mx-auto md:w-1/2">
+  <form name="contacts_form" method="post" data-netlify="true" className="mx-auto md:w-1/2">
     <p className="leading-loose mb-8">
       Here is an example of a form built using Tailwind. Click{" "}
       <a
@@ -25,19 +25,21 @@ const ContactPage = () => (
       id="first-name"
       type="text"
       placeholder="Bill"
+      name="name"
     />
 
     <label
       className="block font-bold mb-2 text-xs uppercase"
-      htmlFor="last-name"
+      htmlFor="email"
     >
-      Last Name
+      email
     </label>
     <input
       className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      id="last-name"
-      type="text"
-      placeholder="Murray"
+      id="email"
+      type="email"
+      placeholder="email@domain.info"
+      name="email"
     />
 
     <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">
@@ -47,6 +49,7 @@ const ContactPage = () => (
       className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
       placeholder="Say something..."
       rows="8"
+      name="message"
     />
     <div
     data-netlify-recaptcha
