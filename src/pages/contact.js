@@ -6,6 +6,7 @@ const ContactPage = () => (
   <form name="contact_form" method="POST" data-netlify="true" className="mx-auto md:w-1/2">
   
     <div className="flex flex-wrap -mx-3 mb-6">
+  
     <p className="leading-loose mb-8">
       Here is an example of a form built using Tailwind. Click{" "}
       <a
@@ -21,7 +22,7 @@ const ContactPage = () => (
       <label className="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
         First Name
       </label>
-      <input name="firstname" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3 leading-tight" id="grid-first-name" type="text" placeholder="Jane">
+      <input name="firstname" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3 leading-tight" id="grid-first-name" type="text" placeholder="John">
       <p className="text-red text-xs italic">Please fill out this field.</p>
     </div>
   
