@@ -11,9 +11,6 @@ import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 
 import "./index.css";
 
-require('../node_modules/tota11y/build/tota11y.min.js')
-
-
 const TemplateWrapper = ({ children }) => (
   <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
     <Helmet
