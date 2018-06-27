@@ -12,7 +12,8 @@
     "gatsby-remark-images": "latest",
     "gatsby-remark-copy-linked-files": "latest",
     "gatsby-source-filesystem": "latest",
-    "gatsby-plugin-favicon":  "latest"
+    "gatsby-plugin-favicon":  "latest",
+    "tota11y":  "latest"
   },
   "keywords": [
     "gatsby",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "prettier": "^1.11.1",
     "purgecss": "^0.21.0",
-    "tailwindcss": "^0.5.3"
+    "tailwindcss": "^0.5.3",
+    "tota11y":  "latest"
   }
 }
