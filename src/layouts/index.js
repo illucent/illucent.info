@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children }) => (
         { name: "theme-color", content: "#ffffff" }
       ]}
     />
-  
+  // https://gethead.info
   <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
   <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
   <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
