@@ -5,12 +5,6 @@ module.exports = {
 plugins: [
   'gatsby-plugin-react-helmet',
   {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: ["gatsby-remark-copy-linked-files"],
-    },
-  },
-  {
     resolve: `gatsby-plugin-favicon`,
     options: {
       logo: `./src/images/favicons/android-chrome-512x512.png`,
@@ -27,6 +21,6 @@ plugins: [
         windows: false
       }
     }
-  }
-]
+  },
+];
 };
