@@ -23,15 +23,13 @@ const TemplateWrapper = ({ children }) => (
         { name: "msapplication-TileColor", content: "#da532c" },
         { name: "HandheldFriendly", content: "True" },
         { name: "theme-color", content: "#ffffff" }
-      ]
-    /* https://gethead.info */
-  }
+      ]}
     />
-  <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
-  <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
-  <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
-  <link rel="mask-icon" href={maskIcon} color="#5bbad5"/>
-  
+    {/* https://gethead.info */}
+    <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
+    <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
+    <link rel="mask-icon" href={maskIcon} color="#5bbad5"/>
     <Header />
     <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
       {children()}
