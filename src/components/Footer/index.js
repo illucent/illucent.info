@@ -1,7 +1,6 @@
 import React from "react";
 import Gatsby from "../../images/gatsbyjs.svg";
 import Netlify from "../../images/netlify-color-bg.svg";
-import Copyleft from "../../images/Licence_Art_Libre.svg";
 
 
 const Footer = () => (
