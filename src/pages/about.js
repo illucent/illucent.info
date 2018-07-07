@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 import cautiousDog from "../images/cautious-dog.svg";
+import Copyleft from "../images/Licence_Art_Libre.svg";
+
 
 let antiifCampaign = `<a href="http://cirillocompany.de/pages/anti-if">
   <img height="60" width="120"
