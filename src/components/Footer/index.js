@@ -3,10 +3,6 @@ import Gatsby from "../../images/gatsbyjs.svg";
 import Netlify from "../../images/netlify-color-bg.svg";
 import Copyleft from "../../images/Licence_Art_Libre.svg";
 
-let antiifCampaign = `<a href="http://cirillocompany.de/pages/anti-if">
-  <img height="60" width="120"
-  src="http://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/banner_ive-joined.gif"
-  alt="I have joined Anti-IF Campaign"></a>`
 
 const Footer = () => (
   <div className="bg-grey">
@@ -41,9 +37,6 @@ const Footer = () => (
          </p>
           {new Date().getFullYear()}
         </section>
-        <div
-            dangerouslySetInnerHTML={{ __html: antiifCampaign }}
-        />
     </div>
   </div>
 );
