@@ -44,7 +44,6 @@ const AboutPage = () => (
       minHeight={320}
     >
       <Image
-        alt={title}
         naturalHeight={1}
         naturalWidth={1}
         fit="cover"
