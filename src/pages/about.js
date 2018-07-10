@@ -14,12 +14,7 @@ let antiifCampaign = `<a href="http://cirillocompany.de/pages/anti-if">
 
 
 const AboutPage = () => (
-  <div className="flex flex-col md:flex-row items-center">
-  
-    <Section title="Button">
-      <Button text="Button" />
-    </Section>
-    
+  <div className="flex flex-col md:flex-row items-center">  
     <div className="md:w-2/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
         full stack employee / independent learner / digital artist
