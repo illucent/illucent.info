@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import cautiousDog from "../images/cautious-dog.svg";
+import PlayfulCat from "../images/undraw_playful_cat_ql3n.svg";
 import Copyleft from "../images/Licence_Art_Libre.svg";
 
 
@@ -35,7 +35,7 @@ https://illucent.info
     </div>
     
     <div className="w-2/3 md:w-1/3">
-      <img src={cautiousDog} />
+      <img src={PlayfulCat} />
     </div>
   </div>
 );
