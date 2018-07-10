@@ -1,9 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
-
 import PlayfulCat from "../images/undraw_playful_cat_ql3n.svg";
 import Copyleft from "../images/Licence_Art_Libre.svg";
-
+import { Box, Image } from 'gestalt';
 import 'gestalt/dist/gestalt.css';
 
 
@@ -14,7 +13,7 @@ let antiifCampaign = `<a href="http://cirillocompany.de/pages/anti-if">
 
 
 const AboutPage = () => (
-  <div className="flex flex-col md:flex-row items-center">  
+  <div className="flex flex-col md:flex-row items-center"> 
     <div className="md:w-2/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
         full stack employee / independent learner / digital artist
@@ -36,7 +35,22 @@ const AboutPage = () => (
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
     />
     </div>
+
     <div className="w-2/3 md:w-1/3">
+      <Box
+      shape="rounded"
+      color="darkGray"
+      height={320}
+      minHeight={320}
+    >
+      <Image
+        alt={title}
+        naturalHeight={1}
+        naturalWidth={1}
+        fit="cover"
+        src={PlayfulCat}
+      />
+    </Box>
       <img src={PlayfulCat} />
     </div>
   </div>
