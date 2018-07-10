@@ -46,11 +46,9 @@ const AboutPage = () => (
       <Image
         naturalHeight={1}
         naturalWidth={1}
-        fit="cover"
         src={PlayfulCat}
       />
     </Box>
-      <img src={PlayfulCat} />
     </div>
   </div>
 );
