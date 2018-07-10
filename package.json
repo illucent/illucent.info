@@ -13,6 +13,8 @@
     "gatsby-remark-copy-linked-files": "latest",
     "gatsby-plugin-favicon":  "latest",
     "gestalt": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "tota11y":  "latest"
   },
   "keywords": [
