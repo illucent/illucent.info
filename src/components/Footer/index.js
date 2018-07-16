@@ -22,7 +22,9 @@ const Footer = () => (
             >
               <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
             </svg>
-          </a> 
+          </a>
+       </div>
+       <div className="flex flex-wrap items-center justify-start max-w-xl mx-auto p-4 md:p-8">
          <section className="builtWith">
            <p>built using <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="no-underline text-white">
              Gatsby starter styled with Tailwind </a> source <a href="https://github.com/illucent/illucent.info" className="no-underline text-white">
@@ -30,7 +32,7 @@ const Footer = () => (
          </p>
           {new Date().getFullYear()}
         </section>
-    </div>
+     </div>
   </div>
 );
 
