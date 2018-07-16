@@ -24,11 +24,9 @@ const Footer = () => (
             </svg>
           </a> 
          <section className="builtWith">
-           <p>
-          built using 
-          <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="flex items-center no-underline text-white">
-             Gatsby starter styled with Tailwind
-          </a>
+           <p>built using <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="no-underline text-white">
+             Gatsby starter styled with Tailwind </a> source <a href="https://github.com/illucent/illucent.info" className="no-underline text-white">
+             illucent.info</a> 
          </p>
           {new Date().getFullYear()}
         </section>
