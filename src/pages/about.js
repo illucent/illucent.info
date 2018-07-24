@@ -25,15 +25,17 @@ const AboutPage = () => (
                       <img src={Copyleft} className="block mx-auto w-32" />
             </a>
         </p>
-        http://linkedin.com/in/andrewstarodubtsev
+        <p>
+        https://linkedin.com/in/andrewstarodubtsev
         https://github.com/illucent
         devtech@illucent.info
         callto: +380(99)0047245
         https://illucent.info
-      </p>
-    <div
+       </p>
+       <div
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
-    />
+       />
+      </p>
     </div>
 
     <div className="w-2/3 md:w-1/3">
