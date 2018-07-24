@@ -9,7 +9,7 @@ import 'gestalt/dist/gestalt.css';
 
 let antiifCampaign = `<a href="http://cirillocompany.de/pages/anti-if">
   <img height="60" width="120"
-  src="http://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/banner_ive-joined.gif"
+  src="https://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/banner_ive-joined.gif"
   alt="I have joined Anti-IF Campaign"></a>`
 
 
