@@ -2383,9 +2383,9 @@ button,
   flex: auto;
 }
 
-.flex-initial {
+/* .flex-initial {
   flex: initial;
-}
+} */
 
 .flex-none {
   flex: none;
@@ -6283,9 +6283,9 @@ button,
     flex: auto;
   }
 
-  .sm\:flex-initial {
+ /* .sm\:flex-initial {
     flex: initial;
-  }
+  } */
 
   .sm\:flex-none {
     flex: none;
@@ -10176,9 +10176,9 @@ button,
     flex: auto;
   }
 
-  .md\:flex-initial {
+  /* .md\:flex-initial {
     flex: initial;
-  }
+  } */
 
   .md\:flex-none {
     flex: none;
@@ -14069,9 +14069,9 @@ button,
     flex: auto;
   }
 
-  .lg\:flex-initial {
+  /* .lg\:flex-initial {
     flex: initial;
-  }
+  } */
 
   .lg\:flex-none {
     flex: none;
@@ -17962,9 +17962,9 @@ button,
     flex: auto;
   }
 
-  .xl\:flex-initial {
+  /* .xl\:flex-initial {
     flex: initial;
-  }
+  } */
 
   .xl\:flex-none {
     flex: none;
