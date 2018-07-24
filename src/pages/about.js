@@ -1,6 +1,5 @@
 import React from "react";
-import React from 'react'
-import Mailto from 'react-protected-mailto'
+import Mailto from "react-protected-mailto";
 import Link from "gatsby-link";
 import PlayfulCat from "../images/undraw_playful_cat_ql3n.svg";
 import Copyleft from "../images/Licence_Art_Libre.svg";
