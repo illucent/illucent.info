@@ -17,8 +17,8 @@ const TemplateWrapper = ({ children }) => (
       title="illucent"
       meta={[
         { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" },
-        { name: "viewport", content: "width=device-width" },
+        { name: "keywords", content: "html5, web, python, react" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
         { name: "HandheldFriendly", content: "True" },
         { name: "msapplication-TileColor", content: "#da532c" },
         { name: "HandheldFriendly", content: "True" },
