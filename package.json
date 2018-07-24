@@ -15,7 +15,8 @@
     "gestalt": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tota11y":  "latest"
+    "tota11y":  "latest",
+    "react-protected-mailto":  "latest"
   },
   "keywords": [
     "gatsby",
