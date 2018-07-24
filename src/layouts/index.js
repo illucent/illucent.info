@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" },
-        { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+        { name: "viewport", content: "width=device-width" },
         { name: "HandheldFriendly", content: "True" },
         { name: "msapplication-TileColor", content: "#da532c" },
         { name: "HandheldFriendly", content: "True" },
