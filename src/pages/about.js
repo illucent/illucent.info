@@ -1,9 +1,8 @@
 import React from "react";
-import Mailto from "react-protected-mailto";
 import Link from "gatsby-link";
 import PlayfulCat from "../images/undraw_playful_cat_ql3n.svg";
 import Copyleft from "../images/Licence_Art_Libre.svg";
-import { Box, Image } from 'gestalt';
+import { Box, Image } from "gestalt";
 import 'gestalt/dist/gestalt.css';
 
 
@@ -27,15 +26,11 @@ const AboutPage = () => (
             </a>
         </p>
         <p>
-        https://linkedin.com/in/andrewstarodubtsev
-        https://github.com/illucent
-        https://illucent.info
-       </p>
-      <p>
-      callto: <Mailto tel='380(99)0047245' /><br />
-      email: <Mailto
-      email='devtech@illucent.info'
-      headers={subject:'Hello from the illucent.info'}/>
+        https://linkedin.com/in/andrewstarodubtsev <br />
+        https://github.com/illucent <br />
+        https://illucent.info <br />
+        callto: 380(99)0047245 <br />
+        email: devtech@illucent.info
       </p>
        <div
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
