@@ -27,17 +27,15 @@ const AboutPage = () => (
             </a>
         </p>
         <p>
-        https://linkedin.com/in/andrewstarodubtsev<br />
-        https://github.com/illucent<br />
+        https://linkedin.com/in/andrewstarodubtsev
+        https://github.com/illucent
         https://illucent.info
        </p>
       <p>
       callto: <Mailto tel='380(99)0047245' /><br />
       email: <Mailto
-        email='devtech@illucent.info'
-        headers={
-          {subject:'Hello from the illucent.info'}
-        }/>
+      email='devtech@illucent.info'
+      headers={subject:'Hello from the illucent.info'}/>
       </p>
        <div
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
