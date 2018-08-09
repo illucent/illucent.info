@@ -19,6 +19,7 @@ const TemplateWrapper = ({ children }) => (
         { name: "description", content: "Sample" },
         { name: "keywords", content: "html5, web, python, react" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "google-site-verification", content: "x1dhNjhhi7Yy9Nf2yFNHrGlD-xbOi799Yzzwi748gVo" },
         { name: "HandheldFriendly", content: "True" },
         { name: "msapplication-TileColor", content: "#da532c" },
         { name: "HandheldFriendly", content: "True" },
