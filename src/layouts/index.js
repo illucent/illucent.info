@@ -19,11 +19,12 @@ const TemplateWrapper = ({ children }) => (
         { name: "description", content: "Sample" },
         { name: "keywords", content: "html5, web, python, react" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "google-site-verification", content: "x1dhNjhhi7Yy9Nf2yFNHrGlD-xbOi799Yzzwi748gVo" },
         { name: "HandheldFriendly", content: "True" },
         { name: "msapplication-TileColor", content: "#da532c" },
         { name: "HandheldFriendly", content: "True" },
-        { name: "theme-color", content: "#ffffff" }
+        { name: "theme-color", content: "#ffffff" },
+        { name: "google-site-verification", content: "x1dhNjhhi7Yy9Nf2yFNHrGlD-xbOi799Yzzwi748gVo" },
+        { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
       ]}
     />
     {/* https://gethead.info */}
