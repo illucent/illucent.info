@@ -14,7 +14,7 @@
     "gestalt": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-helmet": "latest",
+    "react-helmet": "latest"
   },
   "keywords": [
     "gatsby",
