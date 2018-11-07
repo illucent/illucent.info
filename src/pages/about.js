@@ -14,8 +14,15 @@ const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
     <div className="md:w-2/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
-        full stack employee / independent learner / digital artist
+        Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and life-long learner.
         <br/>
+        <p>
+        https://linkedin.com/in/andrewstarodubtsev <br />
+        https://github.com/illucent <br />
+        https://illucent.info <br />
+        callto: 380(99)0047245 <br />
+        email: devtech at illucent.info
+       </p>
         <p>
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
         you can copy it, distribute it and modify it according to the terms of the Free Art License http://artlibre.org
@@ -23,13 +30,6 @@ const AboutPage = () => (
                       <img src={Copyleft} className="block mx-auto w-32" />
             </a>
         </p>
-        <p>
-        https://linkedin.com/in/andrewstarodubtsev <br />
-        https://github.com/illucent <br />
-        https://illucent.info <br />
-        callto: 380(99)0047245 <br />
-        email: devtech@illucent.info
-      </p>
        <div
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
        />
