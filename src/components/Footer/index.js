@@ -27,7 +27,7 @@ const Footer = () => (
        <div className="flex flex-wrap items-center justify-start max-w-xl mx-auto p-4 md:p-8">
          <section className="builtWith">
            <p>built using <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="no-underline text-white">
-             Gatsby starter styled with Tailwind </a> source <a href="https://github.com/illucent/illucent.info" className="no-underline text-white">
+             Gatsby starter (version 1) styled with Tailwind </a> source <a href="https://github.com/illucent/illucent.info" className="no-underline text-white">
              illucent.info</a> 
          </p>
           {new Date().getFullYear()}
