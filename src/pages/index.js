@@ -13,7 +13,7 @@ const IndexPage = () => (
      <a href="https://www.silkstream.net/blog/2017/11/pros-cons-lets-encrypt-free-ssl-certificate.html" alt="Pros & Cons of Let's Encrypt Free SSL Certificate">Pros & Cons of Let's Encrypt Free SSL Certificate </a><br/>
      <a href="https://dev.to/booyaa/lets-encrypt-certificate-renewal-without-downtime-1njp" alt="Let's Encrypt certificate renewal without downtime">Let's Encrypt certificate renewal without downtime </a><br/>
      <h3 className="bg-grey-light inline-block my-8 p-3">
-      or you can hire me to refactor existing code to heelp me to earn resources for this website construction
+      or you can hire me to refactor existing code to help me to earn resources for this website construction
     </h3>
     </p>
   </div>
