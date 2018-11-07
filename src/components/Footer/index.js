@@ -23,6 +23,9 @@ const Footer = () => (
               <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
             </svg>
           </a>
+          <a href="https://www.sqreen.io/?utm_source=badge" rel="nofollow" target="_blank" className="flex items-center no-underline text-white mx-2">
+            <img src="https://s3-eu-west-1.amazonaws.com/sqreen-assets/badges/20171107/sqreen-light-badge.svg" alt="Sqreen | Runtime Application Protection" className="block mx-auto w-32" />
+  </a>
        </div>
        <div className="flex flex-wrap items-center justify-start max-w-xl mx-auto p-4 md:p-8">
          <section className="builtWith">
