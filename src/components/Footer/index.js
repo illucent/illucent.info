@@ -28,9 +28,8 @@ const Footer = () => (
          <section className="builtWith">
            <p>built using <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="no-underline text-white">
              Gatsby starter (version 1) styled with Tailwind </a> source <a href="https://github.com/illucent/illucent.info" className="no-underline text-white">
-             illucent.info</a> 
+             illucent.info</a> {new Date().getFullYear()}
          </p>
-          {new Date().getFullYear()}
         </section>
      </div>
   </div>
