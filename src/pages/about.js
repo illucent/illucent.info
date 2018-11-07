@@ -14,7 +14,7 @@ const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
     <div className="md:w-2/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
-        Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and life-long learner.
+        Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and lifelong learner.
         <br/>
         <p>
         https://linkedin.com/in/andrewstarodubtsev <br />
