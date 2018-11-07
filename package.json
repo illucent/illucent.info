@@ -28,7 +28,7 @@
   "scripts": {
     "build:css": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.config.js -o ./src/layouts/index.css",
     "build": "npm run build:css && purgecss -c ./purgecss.config.js -o ./src/layouts && gatsby build",
-    "postinstall": "npm rebuild node-sass",
+    // "postinstall": "npm rebuild node-sass",
     "develop": "npm run build:css && gatsby develop",
     "format": "prettier --write src/**/*.js",
     "test": "echo \"error: no test specified\" && exit 1"
