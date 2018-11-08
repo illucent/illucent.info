@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-grey">
+    <nav className="bg-grey-light">
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
     
         <Link to="/" className="flex items-center no-underline text-white">
@@ -40,39 +40,39 @@ const Header = () => {
           <div className="text-sm">
             <Link
               to="/"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline hover:text-grey text-black"
             >
               home
             </Link>
             <Link
               to="/projects"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline hover:text-grey text-black"
             >
              projects / portfolio
             </Link>
             <Link
               to="/blog"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline hover:text-grey text-black"
             >
               blog
             </Link>
            <Link
               to="/lab"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline hover:text-grey text-black"
             >
              lab
             </Link>
     
             <Link
               to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline hover:text-grey text-black"
             >
               about
             </Link>
 
             <Link
               to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 no-underline hover:text-grey text-black"
             >
               contact
             </Link>
