@@ -3,17 +3,6 @@ import Link from "gatsby-link";
 
 const ContactPage = () => (
   <form name="contacts_form" method="post" data-netlify="true" className="mx-auto md:w-1/2">
-    <p className="leading-loose mb-8">
-      Here is an example of a form built using Tailwind. Click{" "}
-      <a
-        href="https://tailwindcss.com/docs/examples/forms"
-        className="font-bold no-underline text-grey-darkest"
-      >
-        here
-      </a>{" "}
-      to see more examples.
-    </p>
-
     <label
       className="block font-bold mb-2 text-xs uppercase"
       htmlFor="first-name"
@@ -27,7 +16,6 @@ const ContactPage = () => (
       placeholder="Bill"
       name="name"
     />
-
     <label
       className="block font-bold mb-2 text-xs uppercase"
       htmlFor="email"
@@ -41,7 +29,6 @@ const ContactPage = () => (
       placeholder="email@domain.info"
       name="email"
     />
-
     <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">
       Message
     </label>
