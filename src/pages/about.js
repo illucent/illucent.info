@@ -18,8 +18,8 @@ const AboutPage = () => (
         <br/>
         <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black">LinkedIn</a><br />
         <a href=" https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black">github</a><br />
-        <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black">github</a><br />
-       <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">github</a>
+        <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black">e-mail</a><br />
+       <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">phone number</a>
         </div>
         <div>
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
