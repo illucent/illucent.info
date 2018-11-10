@@ -5,7 +5,7 @@ import {UndrawArtLover} from 'react-undraw-illustrations';
 const IndexPage = () => (
   <div className="text-center">
     <UndrawArtLover
-    primaryColor='#c0c0c0'
+    primaryColor='#848E88'
     height= '250px'
     className="block mx-auto w-1/2"
     />
