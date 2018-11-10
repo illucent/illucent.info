@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import {UndrawArtLover} from 'react-undraw-illustrations';
 
 const IndexPage = () => (
-  <div className="text-center">
+  <div>
     <UndrawArtLover
     primaryColor='#848E88'
     height= '250px'
