@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import {UndrawTabs, UndrawDesigner,UndrawResponsive } from 'react-undraw-illustrations';
+import {UndrawArtLover} from 'react-undraw-illustrations';
 
 const IndexPage = () => (
   <div className="text-center">
