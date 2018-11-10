@@ -21,7 +21,7 @@ const AboutPage = () => (
         <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black">e-mail</a><br />
        <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">phone number</a>
         </div>
-        <div
+        <div className="py-2 px-4 bg-grey-white text-sm mb-4 rounded"
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
         <div className="py-2 px-4 bg-grey-lightest border text-sm mb-4 rounded">
