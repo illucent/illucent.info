@@ -14,7 +14,7 @@ import "./index.css";
 const TemplateWrapper = ({ children }) => (
   <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
     <Helmet
-      title="illucent"
+      titleTemplate="%s | illucent.info"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "html5, web, python, react" },
@@ -24,8 +24,12 @@ const TemplateWrapper = ({ children }) => (
         { name: "HandheldFriendly", content: "True" },
         { name: "theme-color", content: "#ffffff" },
         { name: "google-site-verification", content: "x1dhNjhhi7Yy9Nf2yFNHrGlD-xbOi799Yzzwi748gVo" },
+         {/* pinterest */}
         { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
       ]}
+      bodyAttributes={{
+            class: 'newClassToBody'
+      }}
     />
     {/* https://gethead.info */}
     <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
