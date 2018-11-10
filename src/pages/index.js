@@ -1,10 +1,14 @@
 import React from "react";
 import Link from "gatsby-link";
-import Installation from "../images/undraw_app_installation_mbdv.svg";
+import {UndrawTabs, UndrawDesigner,UndrawResponsive } from 'react-undraw-illustrations';
 
 const IndexPage = () => (
   <div className="text-center">
-    <img src={Installation} className="block mx-auto w-1/2" />
+    <UndrawArtLover
+    primaryColor='#c0c0c0'
+    height= '250px'
+    className="block mx-auto w-1/2"
+    />
     <h2 className="bg-grey-light inline-block my-8 p-3">
       illucent.info & illucent.design are under construction
     </h2>
