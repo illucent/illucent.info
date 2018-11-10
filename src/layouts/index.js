@@ -24,7 +24,7 @@ const TemplateWrapper = ({ children }) => (
         { name: "HandheldFriendly", content: "True" },
         { name: "theme-color", content: "#ffffff" },
         { name: "google-site-verification", content: "x1dhNjhhi7Yy9Nf2yFNHrGlD-xbOi799Yzzwi748gVo" },
-         {/* pinterest */}
+         {/* pinterest */},
         { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
       ]}
       bodyAttributes={{
