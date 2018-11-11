@@ -10,6 +10,7 @@
     "react-helmet": "^5.2.0",
     "tailwindcss": "^0.7.2",
     "react-undraw-illustrations": "latest",
+    "d3": "latest",
     "sqreen": "latest"
   },
   "keywords": [
