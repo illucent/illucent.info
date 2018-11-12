@@ -39,7 +39,8 @@ const TemplateWrapper = ({ children }) => (
     <link rel="mask-icon" href={maskIcon} color="#5bbad5"/>
     <Header />
     <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
-      {children()}
+        <div id="silver_line"></div>
+            {children()}
     </div>
     <Footer />
   </div>
