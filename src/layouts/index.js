@@ -15,7 +15,9 @@ import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 import "./index.css";
 
 
-const TemplateWrapper = ({ children }) => {
+class TemplateWrapper extends React.Component {
+           render() {
+    return (
           <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
             <Helmet
               title="illucent"
@@ -43,10 +45,12 @@ const TemplateWrapper = ({ children }) => {
             <Header />
             <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
                 <div id="silver_line"></div>
-                    {children()}
+                    {this.props.children()}
             </div>
             <Footer />
           </div>
+          );
+    }
 };
 
                     
