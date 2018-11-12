@@ -22,12 +22,8 @@ const makeSilverLine = function(sl) {
   document.getElementsByTagName('head')[0].appendChild(script)
 }
 
-const TemplateWrapper = ({ children }) => (
-  
-  componentDidMount() {
-    makeSilverLine()
-  }
-
+const TemplateWrapper = ({ children }) => {
+  return (
   <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
     <Helmet
       title="illucent"
@@ -59,7 +55,7 @@ const TemplateWrapper = ({ children }) => (
     </div>
     <Footer />
   </div>
-);
+)}
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func
