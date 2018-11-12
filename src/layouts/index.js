@@ -23,39 +23,46 @@ const makeSilverLine = function(sl) {
 }
 
 const TemplateWrapper = ({ children }) => {
-  return (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
-    <Helmet
-      title="illucent"
-      meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "html5, web, python, react" },
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "HandheldFriendly", content: "True" },
-        { name: "msapplication-TileColor", content: "#da532c" },
-        { name: "HandheldFriendly", content: "True" },
-        { name: "theme-color", content: "#ffffff" },
-        { name: "google-site-verification", content: "x1dhNjhhi7Yy9Nf2yFNHrGlD-xbOi799Yzzwi748gVo" },
-         {/* pinterest */},
-        { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
-      ]}
-      bodyAttributes={{
-            class: 'root'
-      }}
-    />
-    {/* https://gethead.info */}
-    <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
-    <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
-    <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
-    <link rel="mask-icon" href={maskIcon} color="#5bbad5"/>
-    <Header />
-    <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
-        <div id="silver_line"></div>
-            {children()}
-    </div>
-    <Footer />
-  </div>
-)};
+  
+  componentDidMount() {
+    makeSilverLine()
+  }
+  
+  render() {
+      return (
+          <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+            <Helmet
+              title="illucent"
+              meta={[
+                { name: "description", content: "Sample" },
+                { name: "keywords", content: "html5, web, python, react" },
+                { name: "viewport", content: "width=device-width, initial-scale=1" },
+                { name: "HandheldFriendly", content: "True" },
+                { name: "msapplication-TileColor", content: "#da532c" },
+                { name: "HandheldFriendly", content: "True" },
+                { name: "theme-color", content: "#ffffff" },
+                { name: "google-site-verification", content: "x1dhNjhhi7Yy9Nf2yFNHrGlD-xbOi799Yzzwi748gVo" },
+                 {/* pinterest */},
+                { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
+              ]}
+              bodyAttributes={{
+                    class: 'root'
+              }}
+            />
+            {/* https://gethead.info */}
+            <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
+            <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
+            <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
+            <link rel="mask-icon" href={maskIcon} color="#5bbad5"/>
+            <Header />
+            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+                <div id="silver_line"></div>
+                    {children()}
+            </div>
+            <Footer />
+          </div>
+    )
+}};
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func
