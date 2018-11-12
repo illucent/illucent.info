@@ -18,7 +18,6 @@ class TemplateWrapper extends React.Component {
            render() {
                return (
                      <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
-                     <div id="silver_line"></div>
                        <Helmet
                          title="illucent"
                          meta={[
@@ -35,7 +34,7 @@ class TemplateWrapper extends React.Component {
                          ]}
                          script={[
                             {
-                              src: "./silverLine.js"
+                              src: 'silverLine.js'
                             }
                           ]}
                          bodyAttributes={{
