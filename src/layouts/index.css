@@ -2443,6 +2443,17 @@ The following lines should display as indicated at the beginning of the line, wh
 
 /* ========================================================================== */
 
+#silver_line {
+	  background-color: transparent;
+		position: fixed;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		bottom: 0px;
+}
+
+/* ========================================================================== */
+
 .font-sans {
   font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
