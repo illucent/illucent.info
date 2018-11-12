@@ -35,7 +35,7 @@ class TemplateWrapper extends React.Component {
                          ]}
                          script={[
                             {
-                              src: "silverLine.js"
+                              src: "./silverLine.js"
                             }
                           ]}
                          bodyAttributes={{
