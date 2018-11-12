@@ -14,21 +14,8 @@ import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 
 import "./index.css";
 
-const makeSilverLine = function(sl) {
-  let script = document.createElement('script')
-  script.type = 'text/javascript'
-  script.src = 'silverLine.js'
-  script.onload = sl
-  document.getElementsByTagName('head')[0].appendChild(script)
-}
 
 const TemplateWrapper = ({ children }) => {
-  
-  componentDidMount() {
-    makeSilverLine()
-  }
-  
-  render() {
           <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
             <Helmet
               title="illucent"
@@ -60,7 +47,6 @@ const TemplateWrapper = ({ children }) => {
             </div>
             <Footer />
           </div>
-     }
 };
 
                     
