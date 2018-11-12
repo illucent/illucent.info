@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
     </div>
     <Footer />
   </div>
-)}
+)};
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func
