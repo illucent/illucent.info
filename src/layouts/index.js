@@ -5,14 +5,29 @@ import * as d3 from "d3";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+
 import appleTouchIcon from '../images/favicons/apple-touch-icon.png';
 import favicon32 from '../images/favicons/favicon-32x32.png';
 import favicon16 from '../images/favicons/favicon-16x16.png';
 import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 
+
 import "./index.css";
 
+const makeSilverLine = function(sl) {
+  let script = document.createElement('script')
+  script.type = 'text/javascript'
+  script.src = 'silverLine.js'
+  script.onload = sl
+  document.getElementsByTagName('head')[0].appendChild(script)
+}
+
 const TemplateWrapper = ({ children }) => (
+  
+  componentDidMount() {
+    makeSilverLine()
+  }
+
   <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
     <Helmet
       title="illucent"
