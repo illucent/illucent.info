@@ -29,7 +29,6 @@ const TemplateWrapper = ({ children }) => {
   }
   
   render() {
-      return (
           <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
             <Helmet
               title="illucent"
@@ -61,9 +60,10 @@ const TemplateWrapper = ({ children }) => {
             </div>
             <Footer />
           </div>
-    )
-}};
+     }
+};
 
+                    
 TemplateWrapper.propTypes = {
   children: PropTypes.func
 };
