@@ -14,22 +14,11 @@ import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 
 import "./index.css";
 
-const makeSilverLine = function(sl) {
-  let script = document.createElement('script')
-  script.type = 'text/javascript'
-  script.src = 'silverLine.js'
-  script.onload = sl
-  document.getElementsByTagName('head')[0].appendChild(script)
-}
-
 class TemplateWrapper extends React.Component {
-           componentDidMount() {
-                      makeSilverLine()
-           }
-
            render() {
                return (
                      <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+                     <div id="silver_line"></div>
                        <Helmet
                          title="illucent"
                          meta={[
@@ -44,6 +33,11 @@ class TemplateWrapper extends React.Component {
                             {/* pinterest */},
                            { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
                          ]}
+                         script={[
+                            {
+                              src: "silverLine.js"
+                            }
+                          ]}
                          bodyAttributes={{
                                class: 'root'
                          }}
