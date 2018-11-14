@@ -38,11 +38,14 @@ const TemplateWrapper = ({ children }) => (
                          bodyAttributes={{
                                class: 'root'
                          }}
-                       />
+                       >
+                       </Helmet>
+  
                        <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
                        <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
                        <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
                        <link rel="mask-icon" href={maskIcon} color="#5bbad5"/>
+  
                        <div className="flex flex-col font-sans min-h-screen text-grey-darkest site">
                          <Header />
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
@@ -50,7 +53,6 @@ const TemplateWrapper = ({ children }) => (
                            </div>
                          <Footer />
                        </div>
-                      </div>
             );
 
                     
