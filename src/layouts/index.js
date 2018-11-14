@@ -14,7 +14,9 @@ import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 
 import "./index.css";
 
+
 const TemplateWrapper = ({ children }) => (
+                       <div className="flex flex-col font-sans min-h-screen text-grey-darkest site">
                        <Helmet
                          title="illucent"
                          meta={[
@@ -30,28 +32,22 @@ const TemplateWrapper = ({ children }) => (
                             {/* pinterest */},
                            { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
                          ]}
-                         script={[
-                            {
-                              src: 'silverLine.js'
-                            }
-                          ]}
                          bodyAttributes={{
                                class: 'root'
                          }}
-                       >
-                       </Helmet>
+                       />
+
+                       <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
+                       <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
+                       <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
+                       <link rel="mask-icon" href={maskIcon} color="#5bbad5" />
   
-                       <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
-                       <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
-                       <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
-                       <link rel="mask-icon" href={maskIcon} color="#5bbad5"/>
-  
-                       <div className="flex flex-col font-sans min-h-screen text-grey-darkest site">
                          <Header />
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
                                    {children()}
                            </div>
                          <Footer />
+                             
                        </div>
             );
 
