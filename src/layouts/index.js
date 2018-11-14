@@ -18,6 +18,7 @@ const TemplateWrapper = ({ children }) => (
                        <Helmet
                          title="illucent"
                          meta={[
+                           {/* https://gethead.info */},
                            { name: "description", content: "Sample" },
                            { name: "keywords", content: "html5, web, python, react" },
                            { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -38,7 +39,6 @@ const TemplateWrapper = ({ children }) => (
                                class: 'root'
                          }}
                        />
-                       {/* https://gethead.info */}
                        <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
                        <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
                        <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
