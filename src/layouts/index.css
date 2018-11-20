@@ -243,7 +243,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: monospace; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -465,7 +465,7 @@ template {
 
 html {
   box-sizing: border-box; /* 1 */
-  font-family: sans-serif; /* 2 */
+  font-family: monospace; /* 2 */
 }
 
 *,
@@ -2463,7 +2463,7 @@ The following lines should display as indicated at the beginning of the line, wh
 }
 
 .font-mono {
-  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-family: 'Iosevka Web', Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
 .font-hairline {
