@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 const ContactPage = () => (
   <form name="contacts_form" method="post" data-netlify="true" className="mx-auto md:w-1/2">
     <label
-      className="block font-bold mb-2 text-xs uppercase"
+      className="block font-bold mb-2  uppercase"
       htmlFor="first-name"
     >
       First Name
@@ -17,7 +17,7 @@ const ContactPage = () => (
       name="name"
     />
     <label
-      className="block font-bold mb-2 text-xs uppercase"
+      className="block font-bold mb-2  uppercase"
       htmlFor="email"
     >
       email
@@ -29,7 +29,7 @@ const ContactPage = () => (
       placeholder="email@domain.info"
       name="email"
     />
-    <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">
+    <label className="block font-bold mb-2  uppercase" htmlFor="message">
       Message
     </label>
     <textarea

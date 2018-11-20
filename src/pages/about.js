@@ -13,7 +13,7 @@ const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
     <div className="flex flex-wrap">
       <div className="leading-loose pl-4 text-justify">
-        <div className="py-2 px-4 bg-grey-lightest border text-sm mb-4 rounded">
+        <div className="py-2 px-4 bg-grey-lightest border  mb-4 rounded">
         Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and lifelong learner.
         <br/>
         <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black">LinkedIn</a><br />
@@ -21,10 +21,10 @@ const AboutPage = () => (
         <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black">e-mail</a><br />
        <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">phone number</a>
         </div>
-        <div className="py-2 px-4 bg-grey-white text-sm mb-4 rounded"
+        <div className="py-2 px-4 bg-grey-white  mb-4 rounded"
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
-        <div className="py-2 px-4 bg-grey-lightest border text-sm mb-4 rounded">
+        <div className="py-2 px-4 bg-grey-lightest border  mb-4 rounded">
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
         you can copy it, distribute it and modify it according to the terms of the Free Art License http://artlibre.org
             <a href="http://artlibre.org" className="flex items-center no-underline mx-2">
