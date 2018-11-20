@@ -3,11 +3,14 @@ module.exports = {
     title: 'lab',
   },
 plugins: [
-  'gatsby-plugin-react-helmet'
+  'gatsby-plugin-react-helmet',
   {
-      resolve: 'gatsby-plugin-typography',
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        pathToConfigModule: 'src/utils/typography.js',
+        custom: {
+          families: ['Iosevka Web'],
+          urls: ['/fonts/iosevka/webfont.css'],
+        },
       },
   },
 ],
