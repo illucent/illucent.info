@@ -220,6 +220,7 @@ module.exports = {
       'serif',
     ],
     'mono': [
+      'Iosevka Web'
       'Menlo',
       'Monaco',
       'Consolas',
