@@ -8,6 +8,8 @@ let antiifCampaign = `<a href="http://cirillocompany.de/pages/anti-if">
   src="https://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/banner_ive-joined.gif"
   alt="I have joined Anti-IF Campaign"></a>`
 
+let pbreadinglist = `<iframe src="https://pbreadinglist.herokuapp.com/widget/illucent" frameborder="0" scrolling="no"></iframe>`
+
 
 const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
@@ -21,7 +23,7 @@ const AboutPage = () => (
         <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black">e-mail</a><br />
        <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">phone number</a>
         </div>
-        <div className="py-2 px-4 bg-grey-white  mb-4 rounded"
+        <div className="py-2 px-4 bg-grey-white mb-4 rounded"
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
         <div className="py-2 px-4 bg-grey-lightest border  mb-4 rounded">
@@ -31,6 +33,9 @@ const AboutPage = () => (
                       <img src={Copyleft} height="60"/>
             </a>
         </div>
+        <div className="py-2 px-4 bg-grey-lightest border  mb-4 rounded"
+        dangerouslySetInnerHTML={{ __html: pbreadinglist}}
+        />
       </div>
     </div>
   </div>
