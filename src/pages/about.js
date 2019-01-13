@@ -22,7 +22,9 @@ const AboutPage = () => (
         <a href=" https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black">github</a><br />
         <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black">e-mail</a><br />
        <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">phone number</a>
-        </div>
+       my public gpg key 
+       <a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0xEBB8D8915B3B1802" target="blank" rel="noreferrer noopener" title="pub gpg key 0xEBB8D8915B3B1802" className="text-center text-grey-dark no-underline rounded hover:text-black">0xEBB8D8915B3B1802</a>    
+  </div>
         <div className="py-2 px-4 bg-grey-white mb-4 rounded"
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
