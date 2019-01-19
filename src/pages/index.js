@@ -18,7 +18,7 @@ const IndexPage = () => (
      <a href="https://dev.to/booyaa/lets-encrypt-certificate-renewal-without-downtime-1njp" alt="Let's Encrypt certificate renewal without downtime" className="text-indigo hover:text-grey no-underline">Let's Encrypt certificate renewal without downtime </a><br/>
      <a href="https://www.xf.is/posts/alternative_to_lets_encrypt/" alt="Buypass: free alternative to Let's Encrypt certificates" className="text-indigo hover:text-grey no-underline">Buypass: free alternative to Let's Encrypt certificates </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
-      or you can hire me to refactor existing code to help me earn components to build a skyscraper
+      or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build a skyscraper
     </h3>
     </p>
   </div>
