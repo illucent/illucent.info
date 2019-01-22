@@ -9,8 +9,6 @@
     "gatsby-plugin-react-helmet": "^2.0.8",
     "react-helmet": "^5.2.0",
     "tailwindcss": "latest",
-    "gatsby-transformer-remark": "^2.1.3",
-    "gatsby-transformer-sharp": "^2.1.1",
     "gatsby-remark-responsive-iframe": "^2.0.5",
     "react-undraw-illustrations": "latest",
     "d3": "latest",
