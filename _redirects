@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+https://hardcore-bose-b278ce.netlify.com/* https://illucent.info/:splat 301!
+# https://redmine.ungleich.ch/projects/open-infrastructure/wiki/How_to_disable_IPv4_on_your_website
+# For Dual stack servers redirect to to
+https://illucent.info/* https://no-ipv4-here.ungleich.ch/?back_to=https://illucent.info/:splat 301!
