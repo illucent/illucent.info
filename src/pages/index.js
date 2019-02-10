@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
-import {UndrawMakingArt} from 'react-undraw-illustrations';
+import {UndrawArtLover} from 'react-undraw-illustrations';
 
 const IndexPage = () => (
   <div>
-    <UndrawMakingArt
-    primaryColor='#848E88'
+    <UndrawArtLover
+    primaryColor='#303030'
     height= '250px'
     className="block mx-auto w-1/2"
     />
