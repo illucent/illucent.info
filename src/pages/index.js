@@ -1,16 +1,16 @@
 import React from "react";
 import Link from "gatsby-link";
-import {UndrawArtLover} from 'react-undraw-illustrations';
+import {UndrawMakingArt} from 'react-undraw-illustrations';
 
 const IndexPage = () => (
   <div>
-    <UndrawArtLover
+    <UndrawMakingArt
     primaryColor='#848E88'
     height= '250px'
     className="block mx-auto w-1/2"
     />
     <h2 className="unicase bg-grey-light my-8 p-3">
-      illucent.info & illucent.design are under construction
+      under construction
     </h2>
     <p>
      <a href="https://developers.google.com/maps/documentation/javascript/v2tov3" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Upgrading Your Maps JavaScript API Application from V2 to V3</a><br/>
