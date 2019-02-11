@@ -14,6 +14,7 @@ import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 
 import "./index.css";
 
+let instantPage = `<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>`
 
 const TemplateWrapper = ({ children }) => (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
@@ -47,6 +48,10 @@ const TemplateWrapper = ({ children }) => (
                                    {children()}
                            </div>
                          <Footer />
+                         <div
+            dangerouslySetInnerHTML={{ __html: instantPage }}
+            />
+                             
                              
                        </div>
             );
