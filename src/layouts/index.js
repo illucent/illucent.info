@@ -34,7 +34,8 @@ const TemplateWrapper = ({ children }) => (
                            { name: "p:domain_verify", content: "eafcf2f128b092ce09fc06c62547d2f8" },
                          ]}
                          bodyAttributes={{
-                               class: 'root'
+                               class: 'root',
+                               data-instant-allow-query-string
                          }}
                        />
 
