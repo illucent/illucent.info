@@ -13,7 +13,7 @@ const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
     <div className="flex flex-wrap">
       <div className="leading-loose pl-4 text-justify">
-        <div className="py-2 px-4 bg-grey-lightest border  mb-4 rounded">
+        <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest border mb-4">
         Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and lifelong learner.
         <br/>
        <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black">LinkedIn</a><br />
@@ -26,20 +26,20 @@ const AboutPage = () => (
        <br />
        my public gpg key <a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0xEBB8D8915B3B1802" target="blank" rel="noreferrer noopener" title="pub gpg key 0xEBB8D8915B3B1802" className="text-center text-grey-dark no-underline rounded hover:text-black">0xEBB8D8915B3B1802</a>    
   </div>
-        <div className="py-2 px-4 bg-grey-white mb-4 rounded"
+        <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest border mb-4"
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
-        <div className="py-2 px-4 bg-grey-lightest border mb-4 rounded">
+        <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest border mb-4">
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
         you can copy it, distribute it and modify it according to the terms of the Free Art License http://artlibre.org
   
+        <div className="max-w overflow-hidden">
+             <img src={ArtLibre} className="w-full" alt="ArtLibre" />
+        </div>
+    
         <a href="http://artlibre.org" className="flex items-center no-underline mx-2">
                   <img src={Copyleft} height="60"/>
         </a>
-  
-        <div className="max-w-sm overflow-hidden">
-             <img src={ArtLibre} className="w-full" alt="ArtLibre" />
-        </div>
   
         </div>
       </div>
