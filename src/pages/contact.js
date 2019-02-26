@@ -29,7 +29,7 @@ const ContactPage = () => (
     data-netlify-recaptcha
     >
     </div>
-     <button className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded">
+     <button className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark border-4 text-white py-1 px-2 rounded">
       submit
     </button>
   </form>
