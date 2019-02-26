@@ -30,14 +30,14 @@ const AboutPage = () => (
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
         <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest border mb-4">
-        <p class="text-sm">
+        <p className="text-sm">
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
         you can copy it, distribute it and modify it according to the terms of the Free Art License http://artlibre.org
         </p>
         <div className="max-w overflow-hidden">
              <img src={ArtLibre} className="w-full" alt="ArtLibre" />
         </div>
-        <p class="text-sm">
+        <p className="text-sm">
         Inkscape Document Properties License 
         </p>
     
