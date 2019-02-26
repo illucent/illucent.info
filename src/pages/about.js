@@ -3,9 +3,9 @@ import Link from "gatsby-link";
 import Copyleft from "../images/Licence_Art_Libre.svg";
 
 
-let antiifCampaign = `<a href="http://cirillocompany.de/pages/anti-if">
+let antiifCampaign = `<a href="https://francescocirillo.com/pages/anti-if-campaign">
   <img height="60" width="120"
-  src="https://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/banner_ive-joined.gif"
+  src="http://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/banner_ive-joined.gif"
   alt="I have joined Anti-IF Campaign"></a>`
 
 const AboutPage = () => (
