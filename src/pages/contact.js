@@ -21,7 +21,7 @@ const ContactPage = () => (
     </label>
     <textarea
       className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      placeholder="Say something..."
+      placeholder="say something ..."
       rows="8"
       name="message"
     />
@@ -29,8 +29,8 @@ const ContactPage = () => (
     data-netlify-recaptcha
     >
     </div>
-    <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-white">
-      Submit
+     <button className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded">
+      submit
     </button>
   </form>
 );
