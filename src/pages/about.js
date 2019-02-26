@@ -37,8 +37,8 @@ const AboutPage = () => (
                   <img src={Copyleft} height="60"/>
         </a>
   
-        <div class="max-w-sm overflow-hidden">
-             <img class="w-full" src="{ArtLibre}" alt="ArtLibre" />
+        <div className="max-w-sm overflow-hidden">
+             <img src="{ArtLibre}" className="w-full" alt="ArtLibre" />
         </div>
   
         </div>
