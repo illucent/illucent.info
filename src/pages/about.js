@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import Copyleft from "../images/Licence_Art_Libre.svg";
+import ArtLibre from "../images/silver_ratio_artlibre_svg_inkscape_v000002.jpg";
 
 
 let antiifCampaign = `<a href="https://francescocirillo.com/pages/anti-if-campaign">
@@ -28,12 +29,18 @@ const AboutPage = () => (
         <div className="py-2 px-4 bg-grey-white mb-4 rounded"
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
-        <div className="py-2 px-4 bg-grey-lightest border  mb-4 rounded">
+        <div className="py-2 px-4 bg-grey-lightest border mb-4 rounded">
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
         you can copy it, distribute it and modify it according to the terms of the Free Art License http://artlibre.org
-            <a href="http://artlibre.org" className="flex items-center no-underline mx-2">
-                      <img src={Copyleft} height="60"/>
-            </a>
+  
+        <a href="http://artlibre.org" className="flex items-center no-underline mx-2">
+                  <img src={Copyleft} height="60"/>
+        </a>
+  
+        <div class="max-w-sm overflow-hidden">
+             <img class="w-full" src="{ArtLibre}" alt="ArtLibre" />
+        </div>
+  
         </div>
       </div>
     </div>
