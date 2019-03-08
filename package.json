@@ -15,6 +15,7 @@
     "tailwindcss": "latest",
     "react-undraw-illustrations": "latest",
     "d3": "latest",
+    "axios": "latest",
     "sqreen": "latest"
   },
   "keywords": [
