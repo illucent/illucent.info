@@ -45,12 +45,6 @@ const Header = () => {
               about
             </Link>
             <Link
-              to="/portfolio"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline hover:text-grey text-black"
-            >
-              portfolio
-            </Link>
-            <Link
               to="/contact"
               className="block md:inline-block mt-4 md:mt-0 no-underline hover:text-grey text-black"
             >
