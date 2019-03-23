@@ -44,12 +44,11 @@ const Header = () => {
             >
               about
             </Link>
-            <div className="">
             <Link
               to="/portfolio"
               className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline hover:text-grey text-black"
             >
-              portffolio
+              portfolio
             </Link>
             <Link
               to="/contact"
