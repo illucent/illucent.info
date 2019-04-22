@@ -25,12 +25,13 @@ const Footer = () => (
           </a>
           <a href="https://www.sqreen.io/?utm_source=badge" rel="nofollow" target="_blank" className="flex items-center no-underline text-white mx-2">
             <img src="https://s3-eu-west-1.amazonaws.com/sqreen-assets/badges/20171107/sqreen-light-badge.svg" alt="Sqreen | Runtime Application Protection" className="block mx-auto w-32" />
-  </a>
+           </a>
        </div>
        <div className="flex flex-wrap items-center justify-start max-w-xl mx-auto p-4 md:p-8">
          <section className="builtWith">
            built with <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="no-underline text-grey-dark hover:text-grey-darkest">
-             Gatsby starter ("gatsby":"^1.9.277") styled with Tailwind </a> {new Date().getFullYear()}
+             Gatsby starter ("gatsby":"^1.9.277") styled with Tailwind </a> {new Date().getFullYear()}, beautiful illustrattions by <a href="https://undraw.co" className="no-underline text-grey-dark hover:text-grey-darkest">
+             unDraw </a>
            <img src="https://api.netlify.com/api/v1/badges/9ceb3b7e-46db-4ae3-beed-bcf1ef6ce336/deploy-status" alt="Deploy status badge" className="flex items-center no-underline text-grey-dark hover:text-grey-darkest mx-2" />
         </section>
      </div>
