@@ -16,7 +16,6 @@ const IndexPage = () => (
      <a href="https://developers.google.com/maps/documentation/javascript/v2tov3" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Upgrading Your Maps JavaScript API Application from V2 to V3</a><br/>
      <a href="https://www.silkstream.net/blog/2017/11/pros-cons-lets-encrypt-free-ssl-certificate.html" alt="Pros & Cons of Let's Encrypt Free SSL Certificate" className="text-indigo hover:text-grey no-underline">Pros & Cons of Let's Encrypt Free SSL Certificate </a><br/>
      <a href="https://dev.to/booyaa/lets-encrypt-certificate-renewal-without-downtime-1njp" alt="Let's Encrypt certificate renewal without downtime" className="text-indigo hover:text-grey no-underline">Let's Encrypt certificate renewal without downtime </a><br/>
-     <a href="https://www.xf.is/posts/alternative_to_lets_encrypt/" alt="Buypass: free alternative to Let's Encrypt certificates" className="text-indigo hover:text-grey no-underline">Buypass: free alternative to Let's Encrypt certificates </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build a skyscraper
     </h3>
