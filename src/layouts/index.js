@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import * as d3 from "d3";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import axios from 'axios';
 
 
 import appleTouchIcon from '../images/favicons/apple-touch-icon.png';
