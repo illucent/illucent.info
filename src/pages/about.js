@@ -15,6 +15,7 @@ const AboutPage = () => (
       <div className="leading-loose pl-4 text-justify">
         <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest border mb-4">
         Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and lifelong learner.
+        Making invisible visible, moving everything in the internet, collecting lost & found objects.
         <br/>
        <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black">LinkedIn</a><br />
        <a href="https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black">github</a><br />
