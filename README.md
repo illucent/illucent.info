@@ -36,6 +36,7 @@ npm run develop
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/taylorbryant/gatsby-starter-tailwind)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fillucent%2Fillucent.info.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fillucent%2Fillucent.info?ref=badge_shield)
 
 ## Resources
 * [Gatsby documentation](https://www.gatsbyjs.org/docs/)
@@ -43,3 +44,6 @@ npm run develop
 
 ## License
 [MIT](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/LICENSE.md)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fillucent%2Fillucent.info.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fillucent%2Fillucent.info?ref=badge_large)
