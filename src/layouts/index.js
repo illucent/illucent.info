@@ -15,7 +15,7 @@ import maskIcon from '../images/favicons/safari-pinned-tab.svg';
 
 import "./index.css";
 import "./001-body-bg-color-fix.css";
-import "./static/fonts/iosevka/webfont.css"
+import "../../static/fonts/iosevka/webfont.css"
 
 
 let instantPage = `<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>`
