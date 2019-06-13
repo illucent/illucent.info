@@ -17,7 +17,7 @@ const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
     <div className="flex flex-wrap">
       <div className="leading-loose pl-4 text-justify">
-        <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest border mb-4">
+        <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest mb-4">
         Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and lifelong learner.
         Making invisible visible, moving everything to the internet, collecting lost & found objects.
         <br/>
