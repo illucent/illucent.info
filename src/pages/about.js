@@ -28,7 +28,7 @@ const AboutPage = () => (
             dangerouslySetInnerHTML={{ __html: devBadge }}
         />
        <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black">e-mail</a><br />
-       <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">phone number</a>t: +38(099)004-72-45
+       <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black">phone number</a> +38(099)004-72-45
        <br />
           <div
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
