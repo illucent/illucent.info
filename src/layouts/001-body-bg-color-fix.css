@@ -2,6 +2,6 @@ body {
     background-color: #A1A1A1;
 }
 
-.bg-grey-light {
+.bg-grey, .bg-grey-light, .bg-grey-lightest  {
     background-color: #A1A1A1;
 }
