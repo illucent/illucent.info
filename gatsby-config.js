@@ -15,5 +15,6 @@ plugins: [
       options: {
         pathToConfigModule: `src/utils/typography.js`,
   },
+},
 ],
 };
