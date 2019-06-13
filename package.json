@@ -14,6 +14,8 @@
     "react-undraw-illustrations": "latest",
     "react-helmet": "^5.2.0",
     "tailwindcss": "latest",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
     "d3": "latest",
     "axios": "latest",
     "sqreen": "latest"
