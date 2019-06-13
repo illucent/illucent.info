@@ -38,14 +38,14 @@ const AboutPage = () => (
        my public gpg key <a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0xEBB8D8915B3B1802" target="blank" rel="noreferrer noopener" title="pub gpg key 0xEBB8D8915B3B1802" className="text-center text-grey-dark no-underline rounded hover:text-black">0xEBB8D8915B3B1802</a>    
        </div>  
         <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest border mb-4">
-        <p className="text-sm">
+        <p>
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
         you can copy it, distribute it and modify it according to the terms of the Free Art License http://artlibre.org
         </p>
         <div className="max-w overflow-hidden">
              <img src={ArtLibre} className="w-full" alt="ArtLibre" />
         </div>
-        <p className="text-sm">
+        <p>
         Inkscape Document Properties License 
         </p>
     
