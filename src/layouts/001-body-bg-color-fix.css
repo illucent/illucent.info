@@ -15,3 +15,7 @@ body {
 #nav a:hover, #nav a:focus, .hover\:text-grey:hover {
     color: #b8c2cc;
 }
+
+.text-grey-darkest {
+    color: #A4ADB0;
+}
