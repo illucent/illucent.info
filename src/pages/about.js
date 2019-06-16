@@ -6,12 +6,14 @@ import ArtLibre from "../images/silver_ratio_artlibre_svg_inkscape_v000002.jpg";
 
 let antiifCampaign = `<a href="https://francescocirillo.com/pages/anti-if-campaign">
   <img height="60" width="120"
-  src="http://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/banner_ive-joined.gif"
+  src="//cdn.shopify.com/s/files/1/0257/1675/t/152/assets/banner_ive-joined.gif"
   alt="I have joined Anti-IF Campaign"></a>`
+
 
 let devBadge = `<a href="https://dev.to/devtech">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Andrew Starodubtev's DEV Profile" height="30" width="30">
 </a>`
+
 
 const AboutPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
