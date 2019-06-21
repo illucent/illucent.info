@@ -16,11 +16,12 @@ const Header = () => {
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
     
         <Link to="/" className="flex items-center no-underline text-white">
-      
-            <svg className-"block mx-auto w-32 fill-current h-8 mr-2" xmlns="http://www.w3.org/2000/svg">
-            <path id="path911" d="M 363.99645,15604.898 37167.995,364.8969 V 15605.898 Z" style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:26.45833206px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <svg
+      className="block mx-auto w-32 fill-current h-8 mr-2"
+      xmlns="http://www.w3.org/2000/svg"
+      >
+            <path d="M 363.99645,15604.898 37167.995,364.8969 V 15605.898 Z" style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:26.45833206px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
      </svg>
-      
         </Link>
 
         <button
