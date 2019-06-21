@@ -16,12 +16,7 @@ const Header = () => {
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
     
         <Link to="/" className="flex items-center no-underline text-white">
-            <svg
-      className="block mx-auto w-32 fill-current h-8 mr-2"
-      xmlns="http://www.w3.org/2000/svg"
-      >
-            <path d="M 363.99645,15604.898 37167.995,364.8969 V 15605.898 Z" style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:26.45833206px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-     </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.2" width="1391.017" height="576.03" viewBox="364 365 36803.991 15240.795" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round"><path d="M363.996 15604.898L37167.995 364.897v15241.001z" fill="silver"/></svg>
         </Link>
 
         <button
