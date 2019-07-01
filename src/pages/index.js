@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import {UndrawArtLover} from 'react-undraw-illustrations';
 
 
-let de=`<a target="_blank" href="https://developereconomics.net?utm_campaign=referrer&utm_source=website&utm_medium=banner&utm_content=1500x750&member_id=GwBK27Ed&lang=en"><img src="https://developer-economics.cdn.prismic.io/developer-economics/de7534bec98de830fffd502913842c3f6395e2e5_twitter_post_506x253.jpg"></a>`
+let de=`&nbsp;<a target="_blank" href="https://developereconomics.net?utm_campaign=referrer&utm_source=website&utm_medium=banner&utm_content=1500x750&member_id=GwBK27Ed&lang=en"><img src="https://developer-economics.cdn.prismic.io/developer-economics/de7534bec98de830fffd502913842c3f6395e2e5_twitter_post_506x253.jpg"></a>`
 
 
 const IndexPage = () => (
@@ -23,7 +23,6 @@ const IndexPage = () => (
      <div
             dangerouslySetInnerHTML={{ __html: de }}
      />
-     <br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build a skyscraper
     </h3>
