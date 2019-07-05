@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { typography } from '../utils/typography.js'
+import { typography } from "../utils/typography.js";
 
 
 import appleTouchIcon from '../images/favicons/apple-touch-icon.png';
