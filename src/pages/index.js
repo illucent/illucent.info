@@ -21,7 +21,7 @@ const IndexPage = () => (
   
      <figure>
          <img src={google_error} style={{}} className="" alt=""/>
-         <figcaption>google maps error</figcaption>
+         <figcaption></figcaption>
      </figure>
   
      <a href="https://developers.google.com/maps/documentation/javascript/v2tov3" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Upgrading Your Maps JavaScript API Application from V2 to V3</a><br/>
