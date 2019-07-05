@@ -6,6 +6,8 @@ plugins: [
    `gatsby-plugin-react-helmet`,
    `gatsby-plugin-sharp`,
    `gatsby-transformer-sharp`,
+   `gatsby-plugin-netlify-cache`,
+   `gatsby-plugin-netlify`,
   {
     resolve: `gatsby-transformer-remark`,
     options: {
