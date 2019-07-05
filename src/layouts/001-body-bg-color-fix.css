@@ -1,5 +1,7 @@
 @charset "utf-8";
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@charset */
+/* https://www.resene.co.nz/swatches/preview.php?chart=Resene%20The%20Range%20fashion%20colours%2018&brand=Resene&name=Passport*/
+
 
 body {
     /* https://www.resene.co.nz/swatches/preview.php?chart=Resene%20The%20Range%20fashion%20colours%2018&brand=Resene&name=Dark%20Side*/
@@ -8,15 +10,6 @@ body {
 
 .bg-grey, .bg-grey-light, .bg-grey-lightest  {
     background-color: #2A3540;
-}
-
-#nav a {
-    /* https://www.resene.co.nz/swatches/preview.php?chart=Resene%20The%20Range%20fashion%20colours%2018&brand=Resene&name=Passport*/
-    color: #838166;
-}
-
-#nav a:hover, #nav a:focus, .hover\:text-grey:hover {
-    color: #b8c2cc;
 }
 
 .text-grey-darkest {
