@@ -16,8 +16,9 @@
     "tailwindcss": "latest",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
-    "d3": "latest",
-    "axios": "latest",
+     // "d3": "latest",
+    "gatsby-cli": "^1.1.41-13",
+    // "axios": "latest",
     "sqreen": "latest"
   },
   "keywords": [
