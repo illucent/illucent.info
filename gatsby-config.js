@@ -1,9 +1,11 @@
 module.exports = {
-  siteMetadata: {
+siteMetadata: {
     title: 'lab',
   },
 plugins: [
-  'gatsby-plugin-react-helmet',
+   `gatsby-plugin-react-helmet`,
+   `gatsby-plugin-sharp`,
+   `gatsby-transformer-sharp`,
   {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -16,5 +18,12 @@ plugins: [
         pathToConfigModule: `src/utils/typography.js`,
   },
 },
-],
+{
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
+      },
+}
+]
 };
