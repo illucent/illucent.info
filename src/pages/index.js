@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import {UndrawArtLover} from "react-undraw-illustrations";
+// import {UndrawArtLover} from "react-undraw-illustrations";
 // import Image from "../components/image";
 import google_error from "../images/google_maps_error_v00000111.png";
 
@@ -9,11 +9,6 @@ let de=`&nbsp;<a target="_blank" href="https://developereconomics.net?utm_campai
 
 const IndexPage = () => (
   <div>
-    <UndrawArtLover
-    primaryColor='#303030'
-    height= '250px'
-    className="block mx-auto w-1/2"
-    />
     <h2 className="unicase bg-grey-light my-8 p-3">
       under construction
     </h2>
