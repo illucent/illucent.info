@@ -40,13 +40,13 @@ const Header = () => {
           <div className="">
             <Link
               to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline hover:text-grey text-black"
+              className="block md:inline-block mt-4 md:mt-0 text-2xl no-underline text-black hover:text-grey"
             >
               about
             </Link>
             <Link
               to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline hover:text-grey text-black"
+              className="block md:inline-block mt-4 md:mt-0 text-2xl no-underline text-black hover:text-grey"
             >
             contact
             </Link>
