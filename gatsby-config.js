@@ -24,6 +24,6 @@ plugins: [
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-}
-]
+},
+],
 };
