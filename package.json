@@ -17,6 +17,7 @@
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "gatsby-cli": "^1.1.41-13",
+    "gatsby-image": "^2.0.40",
     "sqreen": "latest"
   },
   "keywords": [
