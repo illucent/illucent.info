@@ -20,9 +20,11 @@ const IndexPage = () => (
      </figure>
   
      <a href="https://developers.google.com/maps/documentation/javascript/v2tov3" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Upgrading Your Maps JavaScript API Application from V2 to V3</a><br/>
+     <a href="https://www.latecnosfera.com/2016/06/google-maps-api-error-missing-keymap-error-solved.html" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Google Maps API error: MissingKeyMapError [SOLVED]</a><br/>
      <a href="https://www.silkstream.net/blog/2017/11/pros-cons-lets-encrypt-free-ssl-certificate.html" alt="Pros & Cons of Let's Encrypt Free SSL Certificate" className="text-indigo hover:text-grey no-underline">Pros & Cons of Let's Encrypt Free SSL Certificate </a><br/>
      <a href="https://dev.to/booyaa/lets-encrypt-certificate-renewal-without-downtime-1njp" alt="Let's Encrypt certificate renewal without downtime" className="text-indigo hover:text-grey no-underline">Let's Encrypt certificate renewal without downtime </a><br/>
-     <div
+     
+    <div
             dangerouslySetInnerHTML={{ __html: de }}
      />
      <h3 className="unicase bg-grey-light my-8 p-3">
