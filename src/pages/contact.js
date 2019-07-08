@@ -21,7 +21,7 @@ const ContactPage = () => (
     </label>
     <textarea
       className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      placeholder="say something ..."
+      placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
       rows="8"
       name="message"
     />
