@@ -24,14 +24,17 @@ const IndexPage = () => (
      <a href="https://ssl-config.mozilla.org/" alt="SSL Configuration Generator" className="text-indigo hover:text-grey no-underline">SSL Configuration Generator</a><br/>
      <a href="https://www.silkstream.net/blog/2017/11/pros-cons-lets-encrypt-free-ssl-certificate.html" alt="Pros & Cons of Let's Encrypt Free SSL Certificate" className="text-indigo hover:text-grey no-underline">Pros & Cons of Let's Encrypt Free SSL Certificate </a><br/>
      <a href="https://dev.to/booyaa/lets-encrypt-certificate-renewal-without-downtime-1njp" alt="Let's Encrypt certificate renewal without downtime" className="text-indigo hover:text-grey no-underline">Let's Encrypt certificate renewal without downtime </a><br/>
+     <a href="https://www.thesslstore.com/blog/tls-1-3-everything-possibly-needed-know/" alt="TLS 1.3: Everything you need to know" className="text-indigo hover:text-grey no-underline">TLS 1.3: Everything you need to know </a><br/>
      
     <div
             dangerouslySetInnerHTML={{ __html: de }}
      />
+  
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build a skyscraper
     </h3>
-    </p>
+    
+  </p>
   </div>
 );
 
