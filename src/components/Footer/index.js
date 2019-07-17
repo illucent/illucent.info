@@ -4,7 +4,7 @@ import Netlify from "../../images/netlify-color-bg.svg";
 
 
 const Footer = () => (
-  <div className="bg-svg-checkerboard">
+  <div className="bg-svg-checkerboard text-black">
     <div className="flex content-around flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
           <a href="https://www.gatsbyjs.org" className="flex items-center no-underline text-white mx-2">
                 <img src={Gatsby} className="block mx-auto w-32" />
