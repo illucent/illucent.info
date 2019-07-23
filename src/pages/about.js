@@ -29,8 +29,8 @@ const AboutPage = () => (
        <div
             dangerouslySetInnerHTML={{ __html: devBadge }}
         />
-       <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">e-mail</a>
-       <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">phone number</a>  +38(099)004-72-45
+       <a href="mailto:devtech@illucent.info" target="blank" rel="noreferrer noopener" title="e-mail" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  e-mail</a>
+       <a href="tel:+380990047245" target="blank" rel="noreferrer noopener" title="phone number" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  phone number</a>  +38(099)004-72-45
           <div
             dangerouslySetInnerHTML={{ __html: antiifCampaign }}
         />
