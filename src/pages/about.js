@@ -25,7 +25,7 @@ const AboutPage = () => (
 
        <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  LinkedIn</a>
        <a href="https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  github</a>
-       <a href="https://earn.com/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="earn.com" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  earn.com</a><br />
+       <a href="https://earn.com/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="earn.com" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  earn.com</a>
        <div
             dangerouslySetInnerHTML={{ __html: devBadge }}
         />
