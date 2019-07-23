@@ -20,8 +20,8 @@ const AboutPage = () => (
     <div className="flex flex-wrap">
       <div className="leading-loose pl-4 text-justify">
         <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest mb-4">
-        Hi! I am Andrew Starodubtsev freelancer full stack web developer / digital artist / independent and lifelong learner.
-        Making invisible visible,urbanist, moving everything to the internet, collecting lost & found objects, walking around the city.
+        Hi! I am Andrew Starodubtsev freelancer full stack web developer / WebOps engineer / independent and lifelong learner / digital artist, trying to
+        make invisible visible, urbanist, moving everything to the internet, collecting lost & found objects, walking around the city.
         <br/>
        <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black">LinkedIn</a><br />
        <a href="https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black">github</a><br />
@@ -37,7 +37,7 @@ const AboutPage = () => (
         />
        <a href="https://pbreadinglist.herokuapp.com/users/illucent" target="blank" rel="noreferrer noopener" title="my reading list" className="text-center text-grey-dark no-underline rounded hover:text-black">my reading list</a>
        <br />
-       my public gpg key <a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0xEBB8D8915B3B1802" target="blank" rel="noreferrer noopener" title="pub gpg key 0xEBB8D8915B3B1802" className="text-center text-grey-dark no-underline rounded hover:text-black">0xEBB8D8915B3B1802</a>    
+       my public gpg key <a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0xEBB8D8915B3B1802" target="blank" rel="noreferrer noopener" title="pub gpg key 0xEBB8D8915B3B1802" className="text-center text-grey-dark no-underline rounded hover:text-black">0xEBB8D8915B3B1802</a> (expired)  <br />  
       
         <p>
         Copyleft: Unless otherwise stated, the content of this site is free,<br/>
