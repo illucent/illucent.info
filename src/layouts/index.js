@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { typography } from "../utils/typography.js";
-import { Location } from '@react/router'
 import QRCode from "qrcode.react";
 
 
@@ -23,7 +22,7 @@ let instantPage = `<script src="//instant.page/1.1.0" type="module" integrity="s
 
 const pathname = location.pathname;
 
-const TemplateWrapper = ({ children, Location }) => (
+const TemplateWrapper = ({ children }) => (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
                          title="illucent"
@@ -55,7 +54,7 @@ const TemplateWrapper = ({ children, Location }) => (
                                    {children()}
                            </div>
                          <QRCode
-                            value={location.pathname}
+                            value={"https://illucent.info"}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
