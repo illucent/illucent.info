@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => (
                                    {children()}
                            </div>
                          <QRCode
-                            value={"http://picturesofpeoplescanningqrcodes.tumblr.com/"}
+                            value={{ location.pathname }}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
