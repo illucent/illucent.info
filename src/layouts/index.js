@@ -51,19 +51,19 @@ const TemplateWrapper = ({ children }) => (
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
                                    {children()}
                            </div>
-                         <Footer />
-                         <div
-                          dangerouslySetInnerHTML={{ __html: instantPage }}
-                         />
-                        <QRCode
-                            value={"https://illucent.info/"}
+                         <QRCode
+                            value={"http://picturesofpeoplescanningqrcodes.tumblr.com/"}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
                             level={"Q"}
                             includeMargin={true}
                             renderAs={"svg"}
-                        />
+                          />
+                         <Footer />
+                         <div
+                          dangerouslySetInnerHTML={{ __html: instantPage }}
+                         />
                        </div>
             );
 
