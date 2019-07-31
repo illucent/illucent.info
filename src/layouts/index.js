@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { typography } from "../utils/typography.js";
-import { Location } from '@reach/router'
+import { Location } from '@react/router'
 import QRCode from "qrcode.react";
 
 
