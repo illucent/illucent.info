@@ -20,7 +20,9 @@ import "../../static/fonts/iosevka/webfont.css"
 
 let instantPage = `<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>`
 
-const TemplateWrapper = ({ children, location }) => (
+const pathname = location.pathname;
+
+const TemplateWrapper = ({ children }) => (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
                          title="illucent"
@@ -52,7 +54,7 @@ const TemplateWrapper = ({ children, location }) => (
                                    {children()}
                            </div>
                          <QRCode
-                            value={{location.pathname}}
+                            value={{pathname}}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
