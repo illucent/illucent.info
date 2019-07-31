@@ -23,6 +23,7 @@
     "tailwindcss": "latest",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
+    "qrcode.react": "latest",
     "sqreen": "latest"
   },
   "keywords": [
