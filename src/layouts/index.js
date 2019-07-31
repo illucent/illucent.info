@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { typography } from "../utils/typography.js";
+import QRCode from "qrcode.react";
 
 
 import appleTouchIcon from '../images/favicons/apple-touch-icon.png';
@@ -52,10 +53,17 @@ const TemplateWrapper = ({ children }) => (
                            </div>
                          <Footer />
                          <div
-            dangerouslySetInnerHTML={{ __html: instantPage }}
-            />
-                             
-                             
+                          dangerouslySetInnerHTML={{ __html: instantPage }}
+                         />
+                        <QRCode
+                            value={"https://illucent.info/"}
+                            size={200}
+                            bgColor={"#ffffff"}
+                            fgColor={"#3d4852"}
+                            level={"Q"}
+                            includeMargin={true}
+                            renderAs={"svg"}
+                        />
                        </div>
             );
 
