@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => (
                                    {children()}
                            </div>
                          <QRCode
-                            value={{ props.url + props.pathname }}
+                            value={props.url + props.pathname}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
