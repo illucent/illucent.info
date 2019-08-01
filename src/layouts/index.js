@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => (
                                    {children()}
                            </div>
                          <QRCode
-                            value={"https://illucent.info"}
+                            value={{window.location.host}}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
