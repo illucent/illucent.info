@@ -65,10 +65,11 @@ const TemplateWrapper = ({ children }) => (
                           dangerouslySetInnerHTML={{ __html: instantPage }}
                          />
                        </div>
-                      console.log(props.location)
-            );
+                      
+            )
 
-                    
+console.log(props.location)
+
 TemplateWrapper.propTypes = {
   children: PropTypes.func
 };
