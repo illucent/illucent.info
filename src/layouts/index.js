@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => (
                                    {children()}
                            </div>
                          <QRCode
-                            value={"https://illucent.info"}
+                            value={props.location}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
@@ -65,6 +65,7 @@ const TemplateWrapper = ({ children }) => (
                           dangerouslySetInnerHTML={{ __html: instantPage }}
                          />
                        </div>
+                      console.log(props.location)
             );
 
                     
