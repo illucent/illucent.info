@@ -12,13 +12,7 @@ const IndexPage = () => (
     <h2 className="unicase bg-grey-light my-8 p-3">
       under construction
     </h2>
-    <p>
-  
-     <figure>
-         <img src={google_error} style={{}} className="" alt=""/>
-         <figcaption></figcaption>
-     </figure>
-  
+    <p>  
      <a href="https://developers.google.com/maps/documentation/javascript/v2tov3" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Upgrading Your Maps JavaScript API Application from V2 to V3</a><br/>
      <a href="https://www.latecnosfera.com/2016/06/google-maps-api-error-missing-keymap-error-solved.html" alt="Google Maps API error: MissingKeyMapError [SOLVED]" className="text-indigo hover:text-grey no-underline">Google Maps API error: MissingKeyMapError [SOLVED]</a><br/>
      <a href="https://ssl-config.mozilla.org/" alt="SSL Configuration Generator" className="text-indigo hover:text-grey no-underline">SSL Configuration Generator</a><br/>
