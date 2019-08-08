@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => (
                                    {children()}
                            </div>
                          <QRCode
-                            value={props.location}
+                            value={"https://illucent.info"}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
@@ -67,8 +67,6 @@ const TemplateWrapper = ({ children }) => (
                        </div>
                       
             )
-
-console.log(props.location)
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func
