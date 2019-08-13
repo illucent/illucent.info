@@ -60,7 +60,7 @@ const TemplateWrapper = ({ children, location }) => (
                             includeMargin={true}
                             renderAs={"svg"}
                           />
-                         {console.log('%cqr_code', location)}
+                         {console.log('%cqr_code', prosp.location)}
                          <Footer />
                          <div
                           dangerouslySetInnerHTML={{ __html: instantPage }}
