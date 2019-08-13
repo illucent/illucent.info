@@ -20,7 +20,7 @@ import "../../static/fonts/iosevka/webfont.css"
 
 let instantPage = `<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>`
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, location }) => (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
                          title="illucent"
@@ -68,8 +68,15 @@ const TemplateWrapper = ({ children }) => (
                       
             )
 
+// TemplateWrapper.propTypes = {
+//  children: PropTypes.func
+// };
+
+            
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
+  children: PropTypes.any,
+  location: PropTypes.object,
+}
+
 
 export default TemplateWrapper;
