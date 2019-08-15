@@ -25,7 +25,7 @@ const IndexPage = () => (
      />
   
      <h3 className="unicase bg-grey-light my-8 p-3">
-      and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build a skyscraper
+      and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build spaceship and escape the planet earth
     </h3>
     
   </p>
