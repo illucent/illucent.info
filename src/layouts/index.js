@@ -21,11 +21,9 @@ import "../../static/fonts/iosevka/webfont.css"
 let instantPage = `<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>`
 
 
-let diagonalLine = `<div class="content" >
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
     <polygon points="100 0 100 10 0 10" />
-  </svg>
-</div>`
+  </svg>`
 
 
 const TemplateWrapper = ({ children, location }) => (
