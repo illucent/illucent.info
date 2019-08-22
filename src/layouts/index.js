@@ -71,14 +71,13 @@ const TemplateWrapper = ({ children, location }) => (
                           />
                          {console.log('%cqr_code', location.pathname)}
                          <Footer />
-                       </div>
-                        <div
+                         <div
                           dangerouslySetInnerHTML={{ __html: instantPage }}
                          />
                          <div
                           dangerouslySetInnerHTML={{ __html: sonetelChatWidget }}
                          />
-                      
+                       </div>
             )
 
 // TemplateWrapper.propTypes = {
