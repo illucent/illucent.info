@@ -26,7 +26,7 @@ let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"
   </svg>`
 
 
-let SonetelChatWidget = `<script async id="slcLiveChat" src="//widget.sonetel.com/SonetelWidget.min.js" data-account-id="5516273"></script>`
+let sonetelChatWidget = `<script async id="slcLiveChat" src="//widget.sonetel.com/SonetelWidget.min.js" data-account-id="5516273"></script>`
 
 
 const TemplateWrapper = ({ children, location }) => (
@@ -71,13 +71,13 @@ const TemplateWrapper = ({ children, location }) => (
                           />
                          {console.log('%cqr_code', location.pathname)}
                          <Footer />
-                         <div
+                       </div>
+                        <div
                           dangerouslySetInnerHTML={{ __html: instantPage }}
                          />
                          <div
-                          dangerouslySetInnerHTML={{ __html: SonetelChatWidget }}
+                          dangerouslySetInnerHTML={{ __html: sonetelChatWidget }}
                          />
-                       </div>
                       
             )
 
