@@ -26,6 +26,9 @@ let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"
   </svg>`
 
 
+let SonetelChatWidget = `<script async id="slcLiveChat" src="https://widget.sonetel.com/SonetelWidget.min.js" data-account-id="5516273"></script>`
+
+
 const TemplateWrapper = ({ children, location }) => (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
@@ -55,9 +58,6 @@ const TemplateWrapper = ({ children, location }) => (
   
                          <Header />
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
-                         <div
-                          dangerouslySetInnerHTML={{ __html: diagonalLine }}
-                         />
                                    {children()}
                            </div>
                          <QRCode
@@ -73,6 +73,9 @@ const TemplateWrapper = ({ children, location }) => (
                          <Footer />
                          <div
                           dangerouslySetInnerHTML={{ __html: instantPage }}
+                         />
+                        <div
+                          dangerouslySetInnerHTML={{ __html: SonetelChatWidget }}
                          />
                        </div>
                       
