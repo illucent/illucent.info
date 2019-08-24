@@ -18,15 +18,9 @@ import "./001-body-bg-color-fix.css";
 import "../../static/fonts/iosevka/webfont.css"
 
 
-let instantPage = `<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>`
-
-
 let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
     <polygon points="100 0 100 10 0 10" />
   </svg>`
-
-
-let sonetelChatWidget = `<script async id="slcLiveChat" src="//widget.sonetel.com/SonetelWidget.min.js" data-account-id="5516273"></script>`
 
 
 const TemplateWrapper = ({ children, location }) => (
@@ -71,9 +65,6 @@ const TemplateWrapper = ({ children, location }) => (
                           />
                          {console.log('%cqr_code', location.pathname)}
                          <Footer />
-                         <div
-                          dangerouslySetInnerHTML={{ __html: instantPage }}
-                         />
                        </div>
             )
 
