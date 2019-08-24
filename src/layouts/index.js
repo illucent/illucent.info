@@ -74,9 +74,6 @@ const TemplateWrapper = ({ children, location }) => (
                          <div
                           dangerouslySetInnerHTML={{ __html: instantPage }}
                          />
-                         <div
-                          dangerouslySetInnerHTML={{ __html: sonetelChatWidget }}
-                         />
                        </div>
             )
 
