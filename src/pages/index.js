@@ -27,6 +27,9 @@ const IndexPage = () => (
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build spaceship and escape the planet earth
     </h3>
+     <h3 className="unicase bg-grey-light my-8 p-3">
+     I have Supra analog TV for sale 1500 UAH, contact if interested.
+    </h3>
     
   </p>
   </div>
