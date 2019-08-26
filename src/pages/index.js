@@ -33,10 +33,8 @@ const IndexPage = () => (
     </h3>
      <h3 className="unicase bg-grey-light my-8 p-3">
      I have Supra analog TV for sale 1500 UAH, contact if interested.
-     <div className="md:flex-shrink-0">
-         <img className="rounded-lg md:w-56" src={supra_analog_tv} alt="">
-     </div>
-    </h3>
+     </h3>
+         <img className="rounded-lg md:w-56" src={supra_analog_tv} />
   </p>
   </div>
 );
