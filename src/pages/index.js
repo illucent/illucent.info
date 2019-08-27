@@ -35,7 +35,7 @@ const IndexPage = () => (
      <h3 className="unicase bg-grey-light my-8 p-3">
      I have "SUPRA CTV-21NX (Сhassis-3Y11)" analog TV for sale (semi-working blinking or for parts) 1500 UAH, contact me if interested.
      </h3>
-     <div class="md:flex-shrink-0">
+     <div className="md:flex-shrink-0">
          <img className="rounded-lg md:w-77" src={supra_analog_tv} />
      </div>
   </p>
