@@ -7,7 +7,8 @@ import Link from "gatsby-link";
 
 import google_error from "../images/google_maps_error_v00000111.png";
 
-import supra_analog_tv from "../images/electronics-2027497_960_720.png";
+import supra_analog_tv from "../images/DSCN5612DSCN5612-v.1.15.JPG";
+
 
 let de=`&nbsp;<a target="_blank" href="https://developereconomics.net?utm_campaign=referrer&utm_source=website&utm_medium=banner&utm_content=1500x750&member_id=GwBK27Ed&lang=en"><img src="https://developer-economics.cdn.prismic.io/developer-economics/de7534bec98de830fffd502913842c3f6395e2e5_twitter_post_506x253.jpg"></a>`
 
