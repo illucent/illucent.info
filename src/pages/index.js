@@ -25,6 +25,7 @@ const IndexPage = () => (
      <a href="https://movingtohttps.com" alt="Migrate from HTTP to HTTPS with ease" className="text-indigo hover:text-grey no-underline">Migrate from HTTP to HTTPS with ease </a> <br/>
      <a href="https://www.silkstream.net/blog/2017/11/pros-cons-lets-encrypt-free-ssl-certificate.html" alt="Pros & Cons of Let's Encrypt Free SSL Certificate" className="text-indigo hover:text-grey no-underline">Pros & Cons of Let's Encrypt Free SSL Certificate </a><br/>
      <a href="https://dev.to/booyaa/lets-encrypt-certificate-renewal-without-downtime-1njp" alt="Let's Encrypt certificate renewal without downtime" className="text-indigo hover:text-grey no-underline">Let's Encrypt certificate renewal without downtime </a><br/>
+    <a href="https://epresence.ie/google-ssl-certification-the-facts/" alt="How SSL CAN benefit your website?" className="text-indigo hover:text-grey no-underline">How SSL CAN benefit your website? </a><br/>
      <a href="https://www.thesslstore.com/blog/tls-1-3-everything-possibly-needed-know/" alt="TLS 1.3: Everything you need to know" className="text-indigo hover:text-grey no-underline">TLS 1.3: Everything you need to know </a><br/>
     <div
             dangerouslySetInnerHTML={{ __html: de }}
