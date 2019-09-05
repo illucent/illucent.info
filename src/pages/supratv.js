@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import supra_analog_tv_001 from "../images/v000001211-pprocess.JPG";
-import supra_analog_tv_002 from "../images/v000001-pprocess.JPG";
-import supra_analog_tv_003 from "../images/DSCN5634DSCN5634-pprocess.JPG";
-import supra_analog_tv_004 from "../images/DSCN5633-DSCN5633-pprocess.JPG";
+import supra_analog_tv_001 from "../images/v000001211-pprocess.png";
+import supra_analog_tv_002 from "../images/v000001-pprocess.png";
+import supra_analog_tv_003 from "../images/DSCN5634DSCN5634-pprocess.png";
+import supra_analog_tv_004 from "../images/DSCN5633-DSCN5633-pprocess.png";
+
 
 const SupraPage = () => (
   <div className="flex flex-col md:flex-row items-center"> 
