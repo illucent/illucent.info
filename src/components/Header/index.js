@@ -45,6 +45,12 @@ const Header = () => {
               about
             </Link>
             <Link
+              to="/supratv"
+              className="block md:inline-block mt-4 md:mt-0 text-2xl no-underline text-black hover:text-grey"
+            >
+            buy supra TV
+            </Link>
+                <Link
               to="/contact"
               className="block md:inline-block mt-4 md:mt-0 text-2xl no-underline text-black hover:text-grey"
             >
