@@ -2,13 +2,8 @@ import React from "react";
 
 import Link from "gatsby-link";
 
-// import {UndrawArtLover} from "react-undraw-illustrations";
-// import Image from "../components/image";
 
 import google_error from "../images/google_maps_error_v00000111.png";
-
-
-let de=`&nbsp;<a target="_blank" href="https://developereconomics.net?utm_campaign=referrer&utm_source=website&utm_medium=banner&utm_content=1500x750&member_id=GwBK27Ed&lang=en"><img src="https://developer-economics.cdn.prismic.io/developer-economics/de7534bec98de830fffd502913842c3f6395e2e5_twitter_post_506x253.jpg"></a>`
 
 
 const IndexPage = () => (
@@ -31,9 +26,6 @@ const IndexPage = () => (
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" alt="HTTP response status codes
 " className="text-indigo hover:text-grey no-underline">HTTP response status codes </a><br/>
   <a href="https://content-security-policy.com/" alt="TLS 1.3: Everything you need to know" className="text-indigo hover:text-grey no-underline">TLS 1.3: Everything you need to know </a><br/>
-    <div
-            dangerouslySetInnerHTML={{ __html: de }}
-     />
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build spaceship and escape the planet earth
     </h3>
