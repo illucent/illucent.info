@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Layout from "../components/layout";
 import { typography } from "../utils/typography.js";
 import QRCode from "qrcode.react";
 
