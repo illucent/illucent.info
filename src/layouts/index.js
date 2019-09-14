@@ -28,8 +28,10 @@ const getParamFromPathname = pathname =>
     .pop()
 
 
+const param = getParamFromPathname(pathname);
+
+
 const TemplateWrapper = ({ children, location: { pathname } }) => (
-                       const param = getParamFromPathname(pathname)
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
                          title="illucent"
