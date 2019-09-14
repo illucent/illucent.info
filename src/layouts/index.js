@@ -54,7 +54,7 @@ const TemplateWrapper = ({ children, location }) => (
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
                                    {children()}
                           <QRCode
-                            value={location.pathname}
+                            value="https://illucent.info"
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
