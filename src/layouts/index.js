@@ -22,8 +22,14 @@ let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"
     <polygon points="100 0 100 10 0 10" />
   </svg>`
 
+const getParamFromPathname = pathname =>
+  pathname
+    .split('/')
+    .pop()
 
-const TemplateWrapper = ({ children, location }) => (
+
+const TemplateWrapper = ({ children, location: { pathname } }) => (
+                       const param = getParamFromPathname(pathname)
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
                          title="illucent"
@@ -63,7 +69,7 @@ const TemplateWrapper = ({ children, location }) => (
                             includeMargin={true}
                             renderAs={"svg"}
                           />
-                         {console.log('%cqr_code', location.pathname )}
+                         {console.log('%cqr_code', param )}
                          <Footer />
                        </div>
             )
