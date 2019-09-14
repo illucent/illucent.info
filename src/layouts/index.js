@@ -22,7 +22,6 @@ let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"
     <polygon points="100 0 100 10 0 10" />
   </svg>`
 
-const { location } = this.props
 
 const TemplateWrapper = ({ children, location }) => (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
