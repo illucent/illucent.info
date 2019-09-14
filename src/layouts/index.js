@@ -63,9 +63,8 @@ const TemplateWrapper = ({ children, location }) => (
                             renderAs={"svg"}
                           />
                          {console.log('%cqr_code', location.pathname )}
+  </div>
                          <Footer />
-                           </div>
-                        
                        </div>
             )
 
