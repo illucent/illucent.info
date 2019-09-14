@@ -53,8 +53,7 @@ const TemplateWrapper = ({ children, location }) => (
                          <Header />
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
                                    {children()}
-                           </div>
-                         <QRCode
+                          <QRCode
                             value={location.pathname}
                             size={200}
                             bgColor={"#ffffff"}
@@ -63,8 +62,10 @@ const TemplateWrapper = ({ children, location }) => (
                             includeMargin={true}
                             renderAs={"svg"}
                           />
-                         {console.log('%cqr_code', window.location.pathname )}
+                         {console.log('%cqr_code', location.pathname )}
                          <Footer />
+                           </div>
+                        
                        </div>
             )
 
