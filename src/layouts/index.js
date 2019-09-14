@@ -63,7 +63,7 @@ const TemplateWrapper = ({ children, location }) => (
                             includeMargin={true}
                             renderAs={"svg"}
                           />
-                         {console.log('%cqr_code', location.pathname )}
+                         {console.log('%cqr_code', window.location.pathname )}
                          <Footer />
                        </div>
             )
