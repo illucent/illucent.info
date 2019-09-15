@@ -8,7 +8,7 @@ const NotFoundPage = () => (
             <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest mb-4">
   
              <div className="max-w overflow-hidden">
-                 <img src={kiosk_not_found} className="w-full" alt="404" />
+                 <img src="../images/DSCN5663DSCN5663_404_there_was_a_kiosk.png" className="w-full" alt="404" />
              </div>
   
             <h2 className="bg-yellow inline-block my-8 p-3">
