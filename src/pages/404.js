@@ -1,5 +1,5 @@
 import React from "react";
-import Taken from "../images/DSCN5663DSCN5663_404_there_was_a_kiosk.jpg";
+import Taken from "../images/DSCN5663DSCN5663_404_there_was_a_kiosk.png";
 
 const NotFoundPage = () => (
   <div>
