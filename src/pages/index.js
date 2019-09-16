@@ -26,6 +26,7 @@ const IndexPage = () => (
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" alt="HTTP response status codes
 " className="text-indigo hover:text-grey no-underline">HTTP response status codes </a><br/>
   <a href="https://content-security-policy.com/" alt="TLS 1.3: Everything you need to know" className="text-indigo hover:text-grey no-underline">TLS 1.3: Everything you need to know </a><br/>
+   <a href="https://www.sslforfree.com/" alt="Free SSL Certificates & Free Wildcard SSL Certificates in Minutes" className="text-indigo hover:text-grey no-underline">Free SSL Certificates & Free Wildcard SSL Certificates in Minutes </a><br/>
   <a href="https://keitaito.com/blog/2019/04/14/Supporting-HTTPS-for-your-custom-domain-with-GitHub-Pages.html" alt="How to set up custom domain for Github Pages with HTTPS" className="text-indigo hover:text-grey no-underline">How to set up custom domain for Github Pages with HTTPS </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build spaceship and escape the planet earth
