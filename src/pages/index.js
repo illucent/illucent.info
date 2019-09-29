@@ -25,6 +25,7 @@ const IndexPage = () => (
   <a href="https://www.restapitutorial.com/httpstatuscodes.html" alt="HTTP Status Codes" className="text-indigo hover:text-grey no-underline">HTTP Status Codes </a><br/>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" alt="HTTP response status codes
 " className="text-indigo hover:text-grey no-underline">HTTP response status codes </a><br/>
+    <a href="https://www.immuniweb.com/ssl/" alt="SSL security test, email SSL test, server SSL TLS test, TLS email security, STARTTLS, PCI DSS, HIPAA, NIST, encryption" className="text-indigo hover:text-grey no-underline">SSL security test, email SSL test, server SSL TLS test, TLS email security, STARTTLS, PCI DSS, HIPAA, NIST, encryption </a><br/>
   <a href="https://www.thesslstore.com/blog/tls-1-3-everything-possibly-needed-know" alt="TLS 1.3: Everything you need to know" className="text-indigo hover:text-grey no-underline">TLS 1.3: Everything you need to know </a><br/>
    <a href="https://www.sslforfree.com/" alt="Free SSL Certificates & Free Wildcard SSL Certificates in Minutes" className="text-indigo hover:text-grey no-underline">Free SSL Certificates & Free Wildcard SSL Certificates in Minutes </a><br/>
   <a href="https://keitaito.com/blog/2019/04/14/Supporting-HTTPS-for-your-custom-domain-with-GitHub-Pages.html" alt="How to set up custom domain for Github Pages with HTTPS" className="text-indigo hover:text-grey no-underline">How to set up custom domain for Github Pages with HTTPS </a><br/>
