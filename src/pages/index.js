@@ -31,6 +31,8 @@ const IndexPage = () => (
   <a href="https://docs.sucuri.net/website-firewall/troubleshooting/how-to-fix-ssl-mixed-content-warnings/" alt="How to Fix SSL Mixed Content Warnings" className="text-indigo hover:text-grey no-underline">How to Fix SSL Mixed Content Warnings </a><br/>
     <a href="https://support.cloudflare.com/hc/en-us/articles/200170476-Troubleshooting-mixed-content-errors" alt="Troubleshooting mixed content errors" className="text-indigo hover:text-grey no-underline">Troubleshooting mixed content errors </a><br/>
   <a href="https://keitaito.com/blog/2019/04/14/Supporting-HTTPS-for-your-custom-domain-with-GitHub-Pages.html" alt="How to set up custom domain for Github Pages with HTTPS" className="text-indigo hover:text-grey no-underline">How to set up custom domain for Github Pages with HTTPS </a><br/>
+   <a href="https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content" alt="What Is Mixed Content?" className="text-indigo hover:text-grey no-underline">What Is Mixed Content? </a><br/>
+   <a href="https://infosec.mozilla.org/guidelines/web_security" alt="Web Security" className="text-indigo hover:text-grey no-underline">Web Security </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to modernize applications (re-develop refactor existing apps) to help me earn components to build sci-fi spaceship and escape the planet earth
     </h3>
