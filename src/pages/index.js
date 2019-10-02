@@ -35,6 +35,7 @@ const IndexPage = () => (
    <a href="https://infosec.mozilla.org/guidelines/web_security" alt="Web Security" className="text-indigo hover:text-grey no-underline">Web Security </a><br/>
     <a href="https://www.whynopadlock.com/" alt="Why No Padlock" className="text-indigo hover:text-grey no-underline">Why No Padlock </a><br/>
     <a href="https://gogetsecure.com/website-security-checkup-free-tools/" alt="Run A Website Security Checkup With These Free Tools" className="text-indigo hover:text-grey no-underline">Run A Website Security Checkup With These Free Tools </a><br/>
+       <a href="https://www.searchenginejournal.com/type-ssl-certificate-website-need/187863/" alt="What Type of SSL Certificate Does Your Website Need?" className="text-indigo hover:text-grey no-underline">What Type of SSL Certificate Does Your Website Need? </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to consult / modernize applications (re-develop refactor existing apps) to help me earn components to build sci-fi spaceship and escape the planet earth
     </h3>
