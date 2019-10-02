@@ -34,6 +34,7 @@ const IndexPage = () => (
    <a href="https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content" alt="What Is Mixed Content?" className="text-indigo hover:text-grey no-underline">What Is Mixed Content? </a><br/>
    <a href="https://infosec.mozilla.org/guidelines/web_security" alt="Web Security" className="text-indigo hover:text-grey no-underline">Web Security </a><br/>
     <a href="https://www.whynopadlock.com/" alt="Why No Padlock" className="text-indigo hover:text-grey no-underline">Why No Padlock </a><br/>
+    <a href="https://gogetsecure.com/website-security-checkup-free-tools/" alt="Run A Website Security Checkup With These Free Tools" className="text-indigo hover:text-grey no-underline">Run A Website Security Checkup With These Free Tools </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to consult / modernize applications (re-develop refactor existing apps) to help me earn components to build sci-fi spaceship and escape the planet earth
     </h3>
