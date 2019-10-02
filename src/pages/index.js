@@ -38,6 +38,7 @@ const IndexPage = () => (
        <a href="https://www.searchenginejournal.com/type-ssl-certificate-website-need/187863/" alt="What Type of SSL Certificate Does Your Website Need?" className="text-indigo hover:text-grey no-underline">What Type of SSL Certificate Does Your Website Need? </a><br/>
    <a href="https://www.markbrinker.com/secure-https-website" alt="Does Your Website Really Need HTTPS?" className="text-indigo hover:text-grey no-underline">Does Your Website Really Need HTTPS? </a><br/>
      <a href="https://www.digicert.com/compare-and-buy-ssl-certificates/" alt="Compare SSL Certificates" className="text-indigo hover:text-grey no-underline">Compare SSL Certificates </a><br/>
+    <a href="https://www.olcodesign.com/digital-marketing-agency/website-ssl-certificates/" alt="5 Practical Reasons Why ALL Websites Need an SSL Certificate" className="text-indigo hover:text-grey no-underline">5 Practical Reasons Why ALL Websites Need an SSL Certificate </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to consult / modernize applications (re-develop refactor existing apps) to help me earn components to build sci-fi spaceship and escape the planet earth
     </h3>
