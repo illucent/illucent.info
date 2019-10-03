@@ -43,6 +43,7 @@ const IndexPage = () => (
     <a href="https://ahrefs.com/blog/301-redirects/" alt="301 Redirects for SEO: Everything You Need to Know" className="text-indigo hover:text-grey no-underline">301 Redirects for SEO: Everything You Need to Know </a><br/>
     <a href="https://cwiki.apache.org/confluence/display/httpd/RedirectSSL" alt="Redirect Request to SSL" className="text-indigo hover:text-grey no-underline">Redirect Request to SSL</a><br/>
     <a href="https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS" alt="HTTP to HTTPS" className="text-indigo hover:text-grey no-underline">HTTP to HTTPS </a><br/>
+    <a href="https://www.troyhunt.com/why-no-https-questions-answered-new-data-path-forward/" alt="Why No HTTPS? Questions Answered, New Data, Path Forward" className="text-indigo hover:text-grey no-underline">Why No HTTPS? Questions Answered, New Data, Path Forward </a><br/>
      <h3 className="unicase bg-grey-light my-8 p-3">
       and / or you can hire me to consult / modernize applications (re-develop refactor existing apps) to help me earn components to build sci-fi spaceship and escape the planet earth
     </h3>
