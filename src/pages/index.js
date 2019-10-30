@@ -13,6 +13,8 @@ const IndexPage = () => (
     </h2>
     <p>
      <a href="https://developers.google.com/maps/documentation/javascript/v2tov3" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Upgrading Your Maps JavaScript API Application from V2 to V3</a><br/>
+  <a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https" alt="Enabling HTTPS on Your Servers" className="text-indigo hover:text-grey no-underline">Enabling HTTPS on Your Servers</a><br/>
+     <a href="https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content" alt="What Is Mixed Content?" className="text-indigo hover:text-grey no-underline">What Is Mixed Content? </a><br/>
      <a href="https://www.latecnosfera.com/2016/06/google-maps-api-error-missing-keymap-error-solved.html" alt="Google Maps API error: MissingKeyMapError [SOLVED]" className="text-indigo hover:text-grey no-underline">Google Maps API error: MissingKeyMapError [SOLVED]</a><br/>
      <a href="https://ssl-config.mozilla.org/" alt="SSL Configuration Generator" className="text-indigo hover:text-grey no-underline">SSL Configuration Generator</a><br/>
      <a href="https://movingtohttps.com" alt="Migrate from HTTP to HTTPS with ease" className="text-indigo hover:text-grey no-underline">Migrate from HTTP to HTTPS with ease </a> <br/>
@@ -31,7 +33,6 @@ const IndexPage = () => (
   <a href="https://docs.sucuri.net/website-firewall/troubleshooting/how-to-fix-ssl-mixed-content-warnings/" alt="How to Fix SSL Mixed Content Warnings" className="text-indigo hover:text-grey no-underline">How to Fix SSL Mixed Content Warnings </a><br/>
     <a href="https://support.cloudflare.com/hc/en-us/articles/200170476-Troubleshooting-mixed-content-errors" alt="Troubleshooting mixed content errors" className="text-indigo hover:text-grey no-underline">Troubleshooting mixed content errors </a><br/>
   <a href="https://keitaito.com/blog/2019/04/14/Supporting-HTTPS-for-your-custom-domain-with-GitHub-Pages.html" alt="How to set up custom domain for Github Pages with HTTPS" className="text-indigo hover:text-grey no-underline">How to set up custom domain for Github Pages with HTTPS </a><br/>
-   <a href="https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content" alt="What Is Mixed Content?" className="text-indigo hover:text-grey no-underline">What Is Mixed Content? </a><br/>
    <a href="https://infosec.mozilla.org/guidelines/web_security" alt="Web Security" className="text-indigo hover:text-grey no-underline">Web Security </a><br/>
     <a href="https://www.whynopadlock.com/" alt="Why No Padlock" className="text-indigo hover:text-grey no-underline">Why No Padlock </a><br/>
     <a href="https://gogetsecure.com/website-security-checkup-free-tools/" alt="Run A Website Security Checkup With These Free Tools" className="text-indigo hover:text-grey no-underline">Run A Website Security Checkup With These Free Tools </a><br/>
