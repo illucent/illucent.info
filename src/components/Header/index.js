@@ -50,6 +50,12 @@ const Header = () => {
             >
             supra TV
             </Link>
+                  <Link
+              to="/lab"
+              className="block md:inline-block mt-4 md:mt-0 text-2xl no-underline text-black hover:text-grey"
+            >
+            lab
+            </Link>
                 <Link
               to="/contact"
               className="block md:inline-block mt-4 md:mt-0 text-2xl no-underline text-black hover:text-grey"
