@@ -36,7 +36,7 @@ const Footer = () => (
          <section className="builtWith">
            built with <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="no-underline text-grey-dark hover:text-grey-darkest">
              Gatsby starter ("gatsby":"^1.9.277") styled with Tailwind </a> {new Date().getFullYear()}, beautiful Open-source illustrations by <a href="https://undraw.co" className="no-underline text-grey-dark hover:text-grey-darkest">unDraw</a>, slender typeface for code, from code <a href="https://typeof.net/Iosevka/" className="no-underline text-grey-dark hover:text-grey-darkest">Iosevka</a>
-           <img src="https://api.netlify.com/api/v1/badges/9ceb3b7e-46db-4ae3-beed-bcf1ef6ce336/deploy-status" alt="Deploy status badge" className="flex items-center no-underline text-grey-dark hover:text-grey-darkest mx-2" />
+           <img src="https://api.netlify.com/api/v1/badges/9ceb3b7e-46db-4ae3-beed-bcf1ef6ce336/deploy-status" alt="Deploy status badge" className="flex items-center no-underline text-grey-dark hover:text-grey-darkest mx-2" /> customer chat function and telephoby by <a href="https://sone.tel/Am7kA" className="no-underline text-grey-dark hover:text-grey-darkest">Sonetel</a>
         </section>
      </div>
   </div>
