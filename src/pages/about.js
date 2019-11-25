@@ -21,7 +21,7 @@ const AboutPage = () => (
       <div className="leading-loose pl-4 text-justify">
         <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest mb-4">
         Hi! I am Andrew Starodubtsev freelancer full stack web developer / WebOps engineer / independent and lifelong learner / digital artist, trying to
-        make invisible visible, urbanist, moving everything to the internet, collecting lost & found objects, walking around the city, drinking 100% robusta coffee, sometimes i experience impostor syndrome or FOMO.
+        make invisible visible, urbanist, moving everything to the internet, collecting lost & found objects, walking around the city, drinking 100% robusta coffee, sometimes i experience <a href="https://raptori.dev/blog/impostor-syndrome-vs-the-dunning-kruger-effect" target="blank" rel="noreferrer noopener" title="Impostor Syndrome vs the Dunning-Kruger Effect" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">impostor syndrome</a> or FOMO.
 
        <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  LinkedIn</a>
        <a href="https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  github</a>
