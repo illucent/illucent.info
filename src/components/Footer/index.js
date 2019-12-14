@@ -4,7 +4,7 @@ import Netlify from "../../images/netlify-color-bg.svg";
 
 
 const Footer = () => (
-  <div className="bg-svg-checkerboard text-black">
+  <div className="text-black">
     <div className="flex content-around flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
           <a href="https://www.sqreen.io/?utm_source=badge" rel="nofollow" target="_blank" className="flex items-center no-underline text-white mx-2">
             <img src="https://s3-eu-west-1.amazonaws.com/sqreen-assets/badges/20171107/sqreen-light-badge.svg" alt="Sqreen | Runtime Application Protection" className="block mx-auto w-32" />
