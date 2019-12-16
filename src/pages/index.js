@@ -5,12 +5,18 @@ import Link from "gatsby-link";
 
 import google_error from "../images/google_maps_error_v00000111.png";
 
+let devEconomics = `<a target="_blank" href="https://developereconomics.net?utm_campaign=referrer&utm_source=website&utm_medium=banner&utm_content=728x90&member_id=GwBK27Ed&lang=en"><img src="https://images.prismic.io/developer-economics/9b266ac6-772e-48b0-93f2-7796d5723f9a_728x90.png?auto=compress,format"></a>`
 
 const IndexPage = () => (
   <div>
     <h2 className="unicase bg-grey-light my-8 p-3">
       under construction
     </h2>
+
+    <div
+            dangerouslySetInnerHTML={{ __html: devEconomics }}
+    />
+
     <p>
      <a href="https://developers.google.com/maps/documentation/javascript/v2tov3" alt="Upgrading Your Maps JavaScript API Application from V2 to V3" className="text-indigo hover:text-grey no-underline">Upgrading Your Maps JavaScript API Application from V2 to V3</a><br/>
   <a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https" alt="Enabling HTTPS on Your Servers" className="text-indigo hover:text-grey no-underline">Enabling HTTPS on Your Servers</a><br/>
