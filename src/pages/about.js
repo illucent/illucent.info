@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Copyleft from "../images/Licence_Art_Libre.svg";
 import ArtLibre from "../images/silver_ratio_artlibre_svg_inkscape_v000002.jpg";
+import FontawesomeExtermalLinkAlt from "../images/external-link-alt-solid.svg";
 
 
 let antiifCampaign = `<a href="https://francescocirillo.com/pages/anti-if-campaign">
@@ -9,10 +10,11 @@ let antiifCampaign = `<a href="https://francescocirillo.com/pages/anti-if-campai
   src="//cdn.shopify.com/s/files/1/0257/1675/t/152/assets/banner_ive-joined.gif"
   alt="I have joined Anti-IF Campaign"></a>`
 
-
 let devBadge = `<a href="https://dev.to/devtech">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Andrew Starodubtev's DEV Profile" height="30" width="30">
 </a>`
+
+let extermal_link_alt_fontawesome = `<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="external-link-alt" class="svg-inline--fa fa-external-link-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg>`
 
 
 const AboutPage = () => (
@@ -21,7 +23,7 @@ const AboutPage = () => (
       <div className="leading-loose pl-4 text-justify">
         <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest mb-4">
         Hi! I am Andrew Starodubtsev freelancer full stack web developer / WebOps engineer / independent and lifelong learner / digital artist, trying to
-        make invisible visible, experimenting, urbanist, moving everything to the internet, collecting lost & found objects, walking around the city, drinking 100% robusta coffee, sometimes i experience impostor syndrome <a href="https://raptori.dev/blog/impostor-syndrome-vs-the-dunning-kruger-effect" target="blank" rel="noreferrer noopener" title="Impostor Syndrome vs the Dunning-Kruger Effect" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">1</a>,<a href="https://medium.com/smells-like-team-spirit/an-amateurs-guide-to-turning-impostor-syndrome-into-an-asset-1bac56917d46" target="blank" rel="noreferrer noopener" title="An amateur’s guide to turning impostor syndrome into an asset" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">2</a>,<a href="https://dev.to/kathryngrayson/share-your-experiences-with-impostor-syndrome" target="blank" rel="noreferrer noopener" title="Share Your Experiences with Impostor Syndrome" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">3</a> or FOMO.
+        make invisible visible, experimenting, urbanist, moving everything to the internet, collecting lost & found objects, walking around the city, drinking 100% robusta coffee, sometimes i experience impostor syndrome <a href="https://raptori.dev/blog/impostor-syndrome-vs-the-dunning-kruger-effect" target="blank" rel="noreferrer noopener" title="Impostor Syndrome vs the Dunning-Kruger Effect" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">1<img src={FontawesomeExtermalLinkAlt} height="25" width="25"/></a>,<a href="https://medium.com/smells-like-team-spirit/an-amateurs-guide-to-turning-impostor-syndrome-into-an-asset-1bac56917d46" target="blank" rel="noreferrer noopener" title="An amateur’s guide to turning impostor syndrome into an asset" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">2<img src={FontawesomeExtermalLinkAlt} height="25" width="25"/></a>,<a href="https://dev.to/kathryngrayson/share-your-experiences-with-impostor-syndrome" target="blank" rel="noreferrer noopener" title="Share Your Experiences with Impostor Syndrome" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">3<img src={FontawesomeExtermalLinkAlt} height="25" width="25"/></a> or FOMO.
        <a href="https://linkedin.com/in/andrewstarodubtsev" target="blank" rel="noreferrer noopener" title="LinkedIn profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  LinkedIn</a>
        <a href="https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  github</a>
        <div
