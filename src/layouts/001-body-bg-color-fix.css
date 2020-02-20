@@ -24,9 +24,12 @@ body {
     <rect y="50" width="50" height="50" /> \
     </svg>');
     background-size: 10px 10px;
-} 
-
+}
 
 .text-grey-silver {
     color: silver;
+}
+
+div {
+  white-space: pre-wrap;
 }
