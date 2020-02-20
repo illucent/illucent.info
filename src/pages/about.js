@@ -26,7 +26,7 @@ const AboutPage = () => (
        <a href="https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">  github</a>
       <p>
       My other domains
-      <p>
+    </p>
       <p></p>
       <a href="https://illucent.biz.ua" target="blank" rel="noreferrer noopener" title="illucent.biz.ua" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">illucent.biz.ua</a><p></p>
       <a href="https://illucent.tech" target="blank" rel="noreferrer noopener" title="illucent.tech" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">illucent.tech</a><p></p>
