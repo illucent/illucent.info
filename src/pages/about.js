@@ -29,7 +29,7 @@ const AboutPage = () => (
        <p></p>
        <a href="https://github.com/illucent" target="blank" rel="noreferrer noopener" title="github profile" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">github</a>
       <p></p>
-   <a href="http://www.twine.fm/AndrewStarodubtsev" target="blank" rel="noreferrer noopener" title="twine.fm" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">github</a>
+   <a href="http://www.twine.fm/AndrewStarodubtsev" target="blank" rel="noreferrer noopener" title="twine.fm" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">twine.fm</a>
       <p></p>
        <div
             dangerouslySetInnerHTML={{ __html: devBadge }}
