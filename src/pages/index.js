@@ -11,6 +11,14 @@ const IndexPage = () => (
   <div>
     <h2 className="unicase bg-grey-light my-8 p-3">under construction</h2>
     <p>
+    <a
+        href="https://serverguy.com/security/redirect-http-to-https/"
+        alt="Redirect HTTP to HTTPS using .htaccess (In 2 Easy Steps)"
+        className="text-indigo hover:text-grey no-underline"
+      >
+       Redirect HTTP to HTTPS using .htaccess (In 2 Easy Steps)
+      </a>
+      <br />
    <a
         href="https://linuxize.com/post/redirect-http-to-https-in-nginx/"
         alt="Redirect HTTP to HTTPS in Nginx"
