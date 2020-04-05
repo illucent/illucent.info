@@ -11,6 +11,22 @@ const IndexPage = () => (
   <div>
     <h2 className="unicase bg-grey-light my-8 p-3">under construction</h2>
     <p>
+   <a
+        href="https://linuxize.com/post/redirect-http-to-https-in-nginx/"
+        alt="Redirect HTTP to HTTPS in Nginx"
+        className="text-indigo hover:text-grey no-underline"
+      >
+        Redirect HTTP to HTTPS in Nginx
+      </a>
+      <br />
+   <a
+        href="https://linuxize.com/post/redirect-http-to-https-in-apache/"
+        alt="Redirect HTTP to HTTPS in Apache"
+        className="text-indigo hover:text-grey no-underline"
+      >
+        Redirect HTTP to HTTPS in Apache
+      </a>
+      <br />
       <a
         href="https://developers.google.com/maps/documentation/javascript/v2tov3"
         alt="Upgrading Your Maps JavaScript API Application from V2 to V3"
