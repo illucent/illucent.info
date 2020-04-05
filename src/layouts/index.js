@@ -1,3 +1,6 @@
+require('fs');
+require('sqreen');
+
 import React from "react";
 import Helmet from "react-helmet";
 import PropTypes from "prop-types";
@@ -5,7 +8,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { typography } from "../utils/typography.js";
 import QRCode from "qrcode.react";
-require('sqreen');
 
 import appleTouchIcon from '../images/favicons/apple-touch-icon.png';
 import favicon32 from '../images/favicons/favicon-32x32.png';
