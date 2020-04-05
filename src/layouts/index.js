@@ -26,7 +26,7 @@ let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"
 const TemplateWrapper = ({ children, location }) => (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
-                         title="illucent"
+                         title="under construction >>> technology blog / lab / protfolio"
                          meta={[
                            {/* https://gethead.info */},
                            { name: "description", content: "Sample" },
