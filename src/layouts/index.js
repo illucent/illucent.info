@@ -48,6 +48,7 @@ const TemplateWrapper = ({ children, location }) => (
                        <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
                        <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
                        <link rel="mask-icon" href={maskIcon} color="#5bbad5" />
+                       <link rel="amphtml" href="https://mercury.postlight.com/amp?url=https://illucent.tech" />
   
                          <Header />
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
