@@ -2,8 +2,8 @@ import React from "react";
 import Gatsby from "../../images/gatsbyjs.svg";
 import Netlify from "../../images/netlify-color-bg.svg";
 
-const Footer = ({ location }) => {
-  const url = location.href ? location.href : '';
+const Footer = () => {
+  const url = typeof window !== 'undefined' ? window.location.href : '';
   return (
   <div className="text-black">
     <div className="flex content-around flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
