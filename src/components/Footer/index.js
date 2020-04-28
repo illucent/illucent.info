@@ -2,7 +2,7 @@ import React from "react";
 import Gatsby from "../../images/gatsbyjs.svg";
 import Netlify from "../../images/netlify-color-bg.svg";
 
-const Footer = () => {
+const Footer = () => (
   <div className="text-black">
     <div className="flex content-around flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
           <a href="https://www.sqreen.io/?utm_source=badge" rel="nofollow" target="_blank" className="flex items-center no-underline text-white mx-2">
@@ -39,6 +39,6 @@ const Footer = () => {
         </section>
      </div>
   </div>
-};
+);
 
 export default Footer;
