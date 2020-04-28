@@ -14,7 +14,10 @@ const SupraPage = () => (
         <div className="markdown w-full mx-auto py-2 px-4 bg-grey-lightest mb-4">
 
            <h3 className="unicase bg-grey-light my-8 p-3">
-           I have "SUPRA CTV-21NX (Сhassis-3Y11)" analog TV for sale (semi-working blinking / genuine spare parts disassemble), 1500 UAH, contact me if interested.
+ <p>
+I have "SUPRA CTV-21NX (Сhassis-3Y11)" analog TV for sale (semi-working blinking / genuine spare parts disassemble), 1500 UAH, contact me if interested, or 
+<a href="https://izi.ua/p-3758403-supra-ctv-21nx-shassis-3y11" target="blank" rel="noreferrer noopener" alt="" title="SUPRA CTV-21NX (Сhassis-3Y11)" className="text-center text-grey-dark no-underline rounded hover:text-black bg-gray-300">SUPRA CTV-21NX (Сhassis-3Y11)</a>
+</p>
            </h3>
             <div className="max-w overflow-hidden">
                  <img src={supra_analog_tv_001} className="w-full" alt="ArtLibre" />
