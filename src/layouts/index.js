@@ -22,7 +22,9 @@ let diagonalLine = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"
   </svg>`
 
 
-const TemplateWrapper = ({ children, location }) => (
+const TemplateWrapper = ({ children, location }) =>  {
+  const url = typeof window !== 'undefined' ? window.location.href : '';
+  return (
                        <div className="flex flex-col font-mono min-h-screen text-grey-darkest site">
                        <Helmet
                          title="under construction lab / blog / portfolio"
@@ -54,7 +56,7 @@ const TemplateWrapper = ({ children, location }) => (
                            <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full site-content">
                                    {children()}
                           <QRCode
-                            value="https://illucent.info"
+                            value={url}
                             size={200}
                             bgColor={"#ffffff"}
                             fgColor={"#3d4852"}
@@ -63,14 +65,11 @@ const TemplateWrapper = ({ children, location }) => (
                             renderAs={"svg"}
                           />
                          {console.log('%cqr_code', location.pathname )}
-  </div>
+                          </div>
                          <Footer />
                        </div>
-            )
-
-// TemplateWrapper.propTypes = {
-//  children: PropTypes.func
-// };
+);
+};
 
             
 TemplateWrapper.propTypes = {
