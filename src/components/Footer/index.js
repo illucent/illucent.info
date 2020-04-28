@@ -2,8 +2,9 @@ import React from "react";
 import Gatsby from "../../images/gatsbyjs.svg";
 import Netlify from "../../images/netlify-color-bg.svg";
 
-
-const Footer = () => (
+const Footer = ({ location }) => {
+  const url = location.href ? location.href : '';
+  return (
   <div className="text-black">
     <div className="flex content-around flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
           <a href="https://www.sqreen.io/?utm_source=badge" rel="nofollow" target="_blank" className="flex items-center no-underline text-white mx-2">
@@ -36,10 +37,11 @@ const Footer = () => (
          <section className="builtWith">
            built with <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" className="no-underline text-grey-dark hover:text-grey-darkest">
              Gatsby starter ("gatsby":"^1.9.277") styled with Tailwind </a>, website source code: <a href="https://github.com/illucent/illucent.info" className="no-underline text-grey-dark hover:text-grey-darkest">illucent.info</a>, beautiful Open-source illustrations by <a href="https://undraw.co" className="no-underline text-grey-dark hover:text-grey-darkest">unDraw</a>, slender typeface for code, from code <a href="https://typeof.net/Iosevka/" className="no-underline text-grey-dark hover:text-grey-darkest">Iosevka</a>, customer chat function and telephoby by <a href="https://sone.tel/Am7kA" className="no-underline text-grey-dark hover:text-grey-darkest">Sonetel</a>
-<img src="https://api.netlify.com/api/v1/badges/9ceb3b7e-46db-4ae3-beed-bcf1ef6ce336/deploy-status" alt="Deploy status badge" className="flex items-center no-underline text-grey-dark hover:text-grey-darkest mx-2"/>, {new Date().getFullYear()}
+<img src="https://api.netlify.com/api/v1/badges/9ceb3b7e-46db-4ae3-beed-bcf1ef6ce336/deploy-status" alt="Deploy status badge" className="flex items-center no-underline text-grey-dark hover:text-grey-darkest mx-2"/>, {new Date().getFullYear()}, {url}
         </section>
      </div>
   </div>
 );
+};
 
 export default Footer;
