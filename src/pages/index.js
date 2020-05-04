@@ -18,7 +18,8 @@ const IndexPage = () => (
       >
        The pros and cons of Dark Mode: Here's when to use it and why
       </a>
-      <br />
+    </p>
+    <p>
     <a
         href="https://serverguy.com/security/redirect-http-to-https/"
         alt="Redirect HTTP to HTTPS using .htaccess (In 2 Easy Steps)"
@@ -310,9 +311,8 @@ const IndexPage = () => (
       </a>
       <br />
       <h3 className="unicase bg-grey-light my-8 p-3">
-        and / or you can hire me to consult / modernize applications (re-develop
-        refactor existing apps) to help me earn components to build sci-fi
-        spaceship and escape the planet earth
+        or you can hire me to consult / modernize applications (re-develop
+        refactor existing apps)
       </h3>
     </p>
   </div>
