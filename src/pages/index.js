@@ -313,7 +313,7 @@ const IndexPage = () => (
       <br />
       <h3 className="unicase bg-grey-light my-8 p-3">
         or hire me to consult / modernize applications (re-develop
-        refactor existing apps) to help me earn components to build sci-fi spaceship or
+        refactor existing apps) to help me earn components to build sci-fi spaceship
       </h3>
     </p>
   </div>
