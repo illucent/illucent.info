@@ -7,6 +7,8 @@ import React from "react";
 import Link from "gatsby-link";
 import google_error from "../images/google_maps_error_v00000111.png";
 
+let BMC = `<style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 15px 7px 10px !important;line-height: 35px !important;height:51px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#FF813F !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 15px 7px 10px !important;font-size: 20px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Arial', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/illucenttech"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px;font-size:19px !important;">Buy me a coffee</span></a>`
+
 const IndexPage = () => (
   <div>
     <h2 className="unicase bg-grey-light my-8 p-3">under construction</h2>
@@ -312,9 +314,13 @@ const IndexPage = () => (
       </a>
       <br />
       <h3 className="unicase bg-grey-light my-8 p-3">
-        or you can hire me to consult / modernize applications (re-develop
-        refactor existing apps) to help me earn components to build sci-fi spaceship 
+        or hire me to consult / modernize applications (re-develop
+        refactor existing apps) to help me earn components to build sci-fi spaceship or
       </h3>
+        <div
+            dangerouslySetInnerHTML={{ __html: BMC }}
+        />
+       <h3>i will sit drink coffee and wait for the next wave of space exploration<h3>
     </p>
   </div>
 );
