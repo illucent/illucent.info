@@ -10,7 +10,7 @@ import google_error from "../images/google_maps_error_v00000111.png";
 const IndexPage = () => (
   <div>
     <h2 className="unicase bg-grey-light my-8 p-3">under construction</h2>
-    <p>
+    <h4>
     <a
         href="https://www.phonearena.com/news/Dark-Mode-iPhone-Android-interface-feature-pros-cons-versus-light-mode_id116978"
         alt="The pros and cons of Dark Mode: Here's when to use it and why"
@@ -18,7 +18,8 @@ const IndexPage = () => (
       >
        The pros and cons of Dark Mode: Here's when to use it and why
       </a>
-    </p>
+    </h4>
+    <p></p>
     <p>
     <a
         href="https://serverguy.com/security/redirect-http-to-https/"
@@ -319,4 +320,3 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
-
