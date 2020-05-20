@@ -320,7 +320,7 @@ const IndexPage = () => (
         <div
             dangerouslySetInnerHTML={{ __html: BMC }}
         />
-       <h3>i will sit drink coffee and wait for the next wave of space exploration<h3>
+       <h3>i will sit drink coffee and wait for the next wave of space exploration</h3>
     </p>
   </div>
 );
