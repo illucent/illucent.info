@@ -24,7 +24,8 @@
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "qrcode.react": "latest",
-    "sqreen": "latest"
+    "sqreen": "latest",
+    "snyk": "^1.337.0"
   },
   "keywords": [
     "gatsby",
@@ -40,11 +41,14 @@
     "build": "npm run build:css && purgecss -c ./purgecss.config.js -o ./src/layouts && gatsby build",
     "develop": "npm run build:css && gatsby develop",
     "format": "prettier --trailing-comma es6 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "prettier": "^1.14.2",
     "purgecss": "^1.0.1",
     "tailwindcss": "^0.7.2"
-  }
+  },
+  "snyk": true
 }
