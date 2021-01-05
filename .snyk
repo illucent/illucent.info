@@ -1,4 +1,8 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.261.0
+version: v1.19.0
 ignore: {}
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2021-01-05T05:56:24.121Z'
